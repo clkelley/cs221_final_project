@@ -6,7 +6,9 @@ import scipy.sparse.linalg as sla
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
-DEBUG = True
+DEBUG = False
+SAMPLE_IDS = {4: 89, 6: 90, 8: 91, 10: 92, 14:93, 18: 94, 24: 95}
+
 
 def debug():
     if DEBUG:
@@ -41,28 +43,44 @@ def baseline():
     common_norm = la.norm(data[:, common])
     print("Baseline reconstruction error:", np.sqrt(dnorm**2 - common_norm** 2) / dnorm)
 
-def load_regular_sample_file(data_folder, time, sparse=False):
+def load_regular_sample_file(data_folder, time, sparse_matrix=False):
+    """
+    Load data from a single time step file.
+
+    :param data_folder: path to folder containing data files
+    :type data_folder: str
+
+    :param time: hour number of time step to load (e.g. 4, 8, 10)
+    :type time: int
+
+    :param sparse_matrix: whether to load data into a sparse matrix or not
+    :type sparse_matrix: bool
+
+    :return: matrix of data from a time step where rows are cells and columns
+        are genes
+    :rtype: np.array or sparse.dok_matrix
+
+    """
     #GSM3067189_04hpf
-    prefix = "GSM"
-    sample = int ((time - 4)/2)
-    sample_id = 3067189 + sample
+    prefix = "GSM30671"
+    sample = SAMPLE_IDS[time]
     time = "{:02d}".format(time)
     postfix = "hpf.csv"
-    filename = prefix + str(sample_id) +  "_" + time + postfix
+    filename = f'{prefix}{sample}_{time}{postfix}'
 
     df = pd.read_csv(data_folder + "/" + filename)
 
     # Each row now corresponds to a cell (example) and each column to a gene (feature)
     data = df.values[:, 1:].astype(np.float).T
-    if not sparse:
+    if not sparse_matrix:
         return data
     # Make data sparse
     sata = sparse.dok_matrix(data)
     return sata
 
 
+def plot_sample():
+    raise NotImplementedError
+
+
 debug()
-        
-        
-        
-    

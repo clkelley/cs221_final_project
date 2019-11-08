@@ -78,9 +78,24 @@ def load_regular_sample_file(data_folder, time, sparse_matrix=False):
     sata = sparse.dok_matrix(data)
     return sata
 
-
-def plot_sample():
+def clean_data(data):
     raise NotImplementedError
+
+def visualize_sample(data):
+    """
+    Plot the first 2 PCA components of the data
+    """
+    pca = PCA(n_components=2)
+    pca.fit(data)
+
+    expl_var_1, expl_var_2 = pca.explained_variance_ratio_
+
+    plt.scatter(pca.components_[0,:], pca.components_[1,:])
+    plt.xlabel(f'1st PCA component, {100 * expl_var_1:.1f}% variance')
+    plt.ylabel(f'2nd PCA component, {100 * expl_var_2:.1f}% variance')
+    plt.title('First 2 PCA components')
+    plt.show()
+
 
 
 debug()

@@ -61,12 +61,7 @@ def load_regular_sample_file(data_folder, time, sparse_matrix=False):
     :rtype: np.array or sparse.dok_matrix
 
     """
-    #GSM3067189_04hpf
-    prefix = "GSM30671"
-    sample = SAMPLE_IDS[time]
-    time = "{:02d}".format(time)
-    postfix = "hpf.csv"
-    filename = f'{prefix}{sample}_{time}{postfix}'
+    filename = _make_filename(time)
 
     df = pd.read_csv(data_folder + "/" + filename)
 
@@ -77,6 +72,30 @@ def load_regular_sample_file(data_folder, time, sparse_matrix=False):
     # Make data sparse
     sata = sparse.dok_matrix(data)
     return sata
+
+def load_gene_names(data_folder, time):
+    # return the gene names for a given time step data file
+    filename = _make_filename(time)    
+    df = pd.read_csv(f'{data_folder}/{filename}')
+    return list(df.values[:,0])
+
+def load_names_and_data(data_folder, time):
+    filename = _make_filename(time) 
+    df = pd.read_csv(f'{data_folder}/{filename}')
+
+    data = df.values[:, 1:].astype(np.float).T
+    names = list(df.values[:,0])
+    return names, data
+
+def _make_filename(time):
+    # generate the filename for a given time step
+    prefix = "GSM30671"
+    sample = SAMPLE_IDS[time]
+    time = "{:02d}".format(time)
+    postfix = "hpf.csv"
+    filename = f'{prefix}{sample}_{time}{postfix}'
+
+    return filename
 
 def clean_data(data):
     raise NotImplementedError
@@ -95,7 +114,5 @@ def visualize_sample(data):
     plt.ylabel(f'2nd PCA component, {100 * expl_var_2:.1f}% variance')
     plt.title('First 2 PCA components')
     plt.show()
-
-
 
 debug()

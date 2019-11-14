@@ -8,23 +8,35 @@ savepath = "/home/asd/saved/"
 n_components = 50
 l1_weight = 10
 
-for timepoint in matrix.TIME_POINTS:
+if (len(sys.argv) > 1):
+    timepoints = [int(sys.argv[1])]
+else:
+    timepoints = matrix.TIME_POINTS
+
+for tp in timepoints:
     # load dataset
     # warning: these are big
-    print("Loading timepoint", timepoint)
-    data = util.load_regular_sample_file(datapath, timepoint)
+    print("Loading timepoint", tp)
+    data = util.load_regular_sample_file(datapath, tp)
+    print("Done loading!")
 
     # fit each model and extract the factors
     for name, model in matrix.get_models(n_components, l1_weight).items():
-        print("Fitting timepoint", timepoint, "with model", name)
-        W, H, loss = matrix.fit_model(data, model)
+        filename = savepath + "embryo" + str(tp) + "_" + name + "_"
+
+        W = np.load(filename + "W.npy")
+        H = np.load(filename + "H.npy")
+
+        print("Fitting timepoint", tp, "with model", name)
+        loss = np.linalg.norm(np.dot(W, H) - data) / np.linalg.norm(data)
+
+
+        #W, H, loss = matrix.fit_model(data, model)
         print("Loss:", loss)
 
         # save factors
-        filename = savepath + "embryo" + str(timepoint) + "_" + name + "_"
+
         np.save(filename + "W", W)
         np.save(filename + "H", H)
 
     # exit early if user submits an argument
-    if (len(sys.argv) > 1 and sys.argv[1] == "quicktest"):
-        break

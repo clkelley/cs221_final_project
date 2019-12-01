@@ -1,0 +1,679 @@
+TIME STEP: 4
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 4...
+Data size: (4277, 30677)
+Number of topics	Perplexity
+Fitting 3 topics...
+=================================================================
+Average fit time: 189
+Accuracy: -27927788 (+/- 4307540)
+
+Topic #1:
+LOC101885203, khdrbs1a, hnrnpa1b, hspa8, eef1a1l1, h3f3d, LOC101882117, cirbpa, zgc:158463, hspb6
+Topic #2:
+LOC101885203, pnrc2, nanog, rrm2, hspa8, khdrbs1a, eef1a1l1, cirbpa, hnrnpa0l, zgc:158463
+Topic #3:
+hnrnpa0l, hmga1a, LOC101885203, hspa8, hnrnpa1b, h3f3d, zgc:158463, eef1a1l1, cirbpa, hspb6
+Perplexity: 5606
+
+3	5606.504435267815
+Fitting 4 topics...
+=================================================================
+Average fit time: 224
+Accuracy: -27977715 (+/- 4309042)
+
+Topic #1:
+LOC101885203, nanog, khdrbs1a, eef1a1l1, rrm2, hnrnpa1b, zgc:158463, hspa8, h3f3d, cirbpa
+Topic #2:
+nanog, pnrc2, hspa8, khdrbs1a, hmga1a, zgc:158463, eef1a1l1, hnrnpa0l, cirbpa, hspb6
+Topic #3:
+khdrbs1a, LOC101885203, hspa8, hnrnpa1b, eef1a1l1, h3f3d, LOC101882117, cirbpa, zgc:158463, hspb6
+Topic #4:
+h3f3d, nanog, rrm2, hspa8, cirbpa, khdrbs1a, pnrc2, eef1a1l1, hnrnpa0l, zgc:158463
+Perplexity: 5610
+
+4	5610.668701161586
+Fitting 5 topics...
+=================================================================
+Average fit time: 240
+Accuracy: -28021091 (+/- 4294410)
+
+Topic #1:
+rrm2, nanog, hmga1a, hspa8, pnrc2, khdrbs1a, eef1a1l1, cirbpa, hnrnpa0l, zgc:158463
+Topic #2:
+khdrbs1a, LOC101885203, hspa8, hnrnpa1b, h3f3d, eef1a1l1, LOC101882117, zgc:158463, cirbpa, hspb6
+Topic #3:
+h3f3d, khdrbs1a, rrm2, nanog, LOC101885203, hspa8, eef1a1l1, hnrnpa0l, cirbpa, hspb6
+Topic #4:
+mkrn4, khdrbs1a, hspa8, eef1a1l1, hnrnpa1b, h3f3d, hspb6, LOC101882117, cirbpa, zgc:158463
+Topic #5:
+rrm2, LOC101885203, hmga1a, hspa8, pnrc2, hnrnpa0l, h3f3d, cirbpa, eef1a1l1, hspb6
+Perplexity: 5565
+
+5	5565.853651426898
+Fitting 6 topics...
+=================================================================
+Average fit time: 237
+Accuracy: -28047717 (+/- 4269294)
+
+Topic #1:
+zgc:77118, LOC101885203, hspa8, zgc:158463, hnrnpa1b, LOC101882117, eef1a1l1, h3f3d, cirbpa, hspb6
+Topic #2:
+hnrnpa0l, h3f3d, khdrbs1a, LOC101885203, hspa8, pnrc2, hnrnpa1b, eef1a1l1, zgc:158463, cirbpa
+Topic #3:
+LOC101882117, LOC553227, mtf1, pnrc2, LOC101885531, hel_dr5, zgc:92040, si:dkey-251i10.1, cirbpa, hspb6
+Topic #4:
+hspb6, khdrbs1a, LOC101885203, nanog, pnrc2, rrm2, eef1a1l1, cirbpa, hnrnpa0l, zgc:158463
+Topic #5:
+rrm2, nanog, hmga1a, hspb6, khdrbs1a, zgc:158463, hspa8, hnrnpa0l, cirbpa, eef1a1l1
+Topic #6:
+LOC101885394, hnrnpa1b, hspa8, khdrbs1a, eef1a1l1, h3f3d, cirbpa, hspb6, LOC101882117, zgc:158463
+Perplexity: 5550
+
+6	5550.414706592666
+Fitting 7 topics...
+=================================================================
+Average fit time: 251
+Accuracy: -28076300 (+/- 4254571)
+
+Topic #1:
+LOC101885203, hnrnpa1b, mkrn4, hspa8, eef1a1l1, h3f3d, cirbpa, LOC101882117, zgc:158463, hspb6
+Topic #2:
+LOC101885203, khdrbs1a, hspa8, eef1a1l1, hnrnpa1b, h3f3d, LOC101882117, cirbpa, hspb6, zgc:158463
+Topic #3:
+LOC101885203, hspa8, khdrbs1a, nanog, zgc:158463, rrm2, hspb6, eef1a1l1, cirbpa, hnrnpa0l
+Topic #4:
+LOC101885203, hmga1a, khdrbs1a, pnrc2, hspa8, hspb6, hnrnpa0l, cirbpa, eef1a1l1, zgc:158463
+Topic #5:
+mkrn4, eef1a1l1, rrm2, hspa8, h3f3d, cirbpa, LOC101885394, zgc:158463, LOC101882117, hspb6
+Topic #6:
+hspb6, hnrnpa1b, LOC101885203, eef1a1l1, khdrbs1a, LOC101882117, cirbpa, pnrc2, hnrnpa0l, zgc:158463
+Topic #7:
+khdrbs1a, rrm2, pnrc2, hnrnpa1b, hspa8, LOC101885203, eef1a1l1, h3f3d, cirbpa, hspb6
+Perplexity: 5558
+
+7	5558.462258428651
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TIME STEP: 6
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 6...
+Data size: (5692, 30677)
+Number of topics	Perplexity
+Fitting 3 topics...
+=================================================================
+Average fit time: 349
+Accuracy: -99134622 (+/- 7959500)
+
+Topic #1:
+cirbpb, marcksl1b, LOC561719, hnrnpa0b, khdrbs1a, hnrnpa0l, LOC100006216, cirbpa, hmga1a, eef1a1l1
+Topic #2:
+cirbpb, LOC561719, hmgb2a, marcksl1b, hnrnpa0l, khdrbs1a, hnrnpa0b, cirbpa, hmga1a, eef1a1l1
+Topic #3:
+hmgb2a, LOC561719, marcksl1b, hnrnpa1b, khdrbs1a, cirbpa, hnrnpa0l, hnrnpa0b, hmga1a, eef1a1l1
+Perplexity: 2909
+
+3	2909.7906458828497
+Fitting 4 topics...
+=================================================================
+Average fit time: 456
+Accuracy: -99215199 (+/- 7849876)
+
+Topic #1:
+cirbpb, marcksl1b, LOC561719, hnrnpa0b, khdrbs1a, hnrnpa0l, LOC100006216, cirbpa, hmga1a, eef1a1l1
+Topic #2:
+si:ch211-125o16.4, hnrnpa0l, hsd17b12a, zgc:193505, cldne, eef1a1l1, krt4, lye, krt8, krt18
+Topic #3:
+LOC561719, cirbpb, marcksl1b, h3f3d, hnrnpa1b, khdrbs1a, hnrnpa0b, cirbpa, hmga1a, eef1a1l1
+Topic #4:
+cirbpb, LOC561719, marcksl1b, hmgb2a, khdrbs1a, hnrnpa0l, hnrnpa0b, cirbpa, eef1a1l1, hmga1a
+Perplexity: 2893
+
+4	2893.8025398629047
+Fitting 5 topics...
+=================================================================
+Average fit time: 467
+Accuracy: -99255935 (+/- 7862594)
+
+Topic #1:
+cirbpa, hnrnpa0l, hsd17b12a, zgc:193505, cldne, eef1a1l1, lye, krt4, krt8, krt18
+Topic #2:
+hspa8, hnrnpa1b, LOC561719, LOC100006216, khdrbs1a, hnrnpa0b, hnrnpa0l, hmga1a, cirbpa, eef1a1l1
+Topic #3:
+h3f3d, LOC561719, marcksl1b, hmgb2a, khdrbs1a, hnrnpa0b, hnrnpa0l, cirbpa, hmga1a, eef1a1l1
+Topic #4:
+hspb6, hmgb2a, hnrnpa0l, marcksl1b, cirbpb, khdrbs1a, cirbpa, hnrnpa0b, eef1a1l1, hmga1a
+Topic #5:
+LOC561719, hnrnpa0b, cirbpb, marcksl1b, khdrbs1a, hnrnpa0l, cirbpa, LOC100006216, hmga1a, eef1a1l1
+Perplexity: 2887
+
+5	2887.0117800941734
+Fitting 6 topics...
+=================================================================
+Average fit time: 556
+Accuracy: -99304606 (+/- 7895199)
+
+Topic #1:
+LOC561719, cirbpb, marcksl1b, hnrnpa0b, khdrbs1a, hnrnpa0l, cirbpa, LOC100006216, hmga1a, eef1a1l1
+Topic #2:
+cirbpa, hnrnpa0l, hsd17b12a, zgc:193505, cldne, eef1a1l1, krt4, lye, krt8, krt18
+Topic #3:
+hnrnpa1b, cirbpb, marcksl1b, h3f3d, hnrnpa0b, khdrbs1a, hnrnpa0l, cirbpa, hmga1a, eef1a1l1
+Topic #4:
+cirbpb, LOC561719, hspa8, hnrnpa0l, hmgb2a, cirbpa, khdrbs1a, hmga1a, hnrnpa0b, eef1a1l1
+Topic #5:
+h3f3d, marcksl1b, hmgb2a, hnrnpa0b, LOC561719, khdrbs1a, hnrnpa0l, cirbpa, hmga1a, eef1a1l1
+Topic #6:
+LOC561719, cirbpb, hmgb2a, khdrbs1a, marcksl1b, hnrnpa0l, hnrnpa0b, cirbpa, eef1a1l1, hmga1a
+Perplexity: 2870
+
+6	2870.8563287782417
+Fitting 7 topics...
+=================================================================
+Average fit time: 527
+Accuracy: -99343282 (+/- 7923018)
+
+Topic #1:
+marcksl1b, cirbpb, LOC561719, khdrbs1a, hmgb2a, hnrnpa0l, cirbpa, hnrnpa0b, eef1a1l1, hmga1a
+Topic #2:
+cirbpb, hspa8, LOC561719, hnrnpa0b, khdrbs1a, hnrnpa0l, LOC100006216, cirbpa, hmga1a, eef1a1l1
+Topic #3:
+h3f3d, LOC561719, hnrnpa1b, khdrbs1a, marcksl1b, hnrnpa0l, hnrnpa0b, cirbpa, eef1a1l1, hmga1a
+Topic #4:
+hnrnpa0b, LOC561719, cirbpb, khdrbs1a, hnrnpa0l, marcksl1b, cirbpa, LOC100006216, hmga1a, eef1a1l1
+Topic #5:
+si:ch211-125o16.4, hnrnpa0l, hsd17b12a, zgc:193505, cldne, eef1a1l1, lye, krt4, krt8, krt18
+Topic #6:
+marcksl1b, LOC561719, hmgb2a, cirbpb, hnrnpa0l, cirbpa, hnrnpa0b, khdrbs1a, hmga1a, eef1a1l1
+Topic #7:
+hnrnpa0l, hmgb2a, cirbpb, hnrnpa0b, khdrbs1a, marcksl1b, hmga1a, cirbpa, hspb6, eef1a1l1
+Perplexity: 2872
+
+7	2872.141406891332
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TIME STEP: 8
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 8...
+Data size: (3568, 30677)
+Number of topics	Perplexity
+Fitting 3 topics...
+=================================================================
+Average fit time: 227
+Accuracy: -62190045 (+/- 9924267)
+
+Topic #1:
+h3f3d, wu:fb18c02, hnrnpa0l, hnrnpa0b, khdrbs1a, LOC561719, hmgb2a, cirbpa, eef1a1l1, hmga1a
+Topic #2:
+hmgb2a, hnrnpa0b, cirbpb, khdrbs1a, hnrnpa0l, LOC561719, LOC100006216, cirbpa, hmga1a, eef1a1l1
+Topic #3:
+wu:fb18c02, khdrbs1a, cirbpb, LOC561719, hmgb2a, hnrnpa0b, hnrnpa0l, cirbpa, hmga1a, eef1a1l1
+Perplexity: 2672
+
+3	2672.2137663312433
+Fitting 4 topics...
+=================================================================
+Average fit time: 245
+Accuracy: -62223781 (+/- 9895436)
+
+Topic #1:
+cirbpb, wu:fb18c02, khdrbs1a, hnrnpa0l, LOC561719, hnrnpa0b, hmgb2a, cirbpa, eef1a1l1, hmga1a
+Topic #2:
+cirbpb, hmgb2a, hnrnpa0b, khdrbs1a, hnrnpa0l, LOC561719, LOC100006216, cirbpa, hmga1a, eef1a1l1
+Topic #3:
+wu:fb18c02, cirbpb, LOC561719, hmgb2a, khdrbs1a, hnrnpa0b, hnrnpa0l, cirbpa, hmga1a, eef1a1l1
+Topic #4:
+cirbpb, hmgb2a, hspb6, khdrbs1a, hnrnpa0l, marcksl1b, LOC561719, cirbpa, hmga1a, eef1a1l1
+Perplexity: 2635
+
+4	2635.9570101121926
+Fitting 5 topics...
+=================================================================
+Average fit time: 247
+Accuracy: -62268193 (+/- 9902900)
+
+Topic #1:
+ptmab, cirbpb, hmgb2a, khdrbs1a, LOC561719, hnrnpa0b, hnrnpa0l, cirbpa, hmga1a, eef1a1l1
+Topic #2:
+hnrnpa1b, wu:fb18c02, khdrbs1a, hnrnpa0b, hnrnpa0l, LOC561719, hmgb2a, cirbpa, eef1a1l1, hmga1a
+Topic #3:
+hmgb2a, hnrnpa0b, cirbpb, khdrbs1a, hnrnpa0l, LOC561719, cirbpa, LOC100006216, hmga1a, eef1a1l1
+Topic #4:
+wu:fb18c02, cirbpb, LOC561719, khdrbs1a, hmgb2a, hnrnpa0b, hnrnpa0l, cirbpa, hmga1a, eef1a1l1
+Topic #5:
+hmgb2a, cirbpb, hspb6, khdrbs1a, hnrnpa0l, LOC561719, marcksl1b, cirbpa, hmga1a, eef1a1l1
+Perplexity: 2629
+
+5	2629.0201881954677
+Fitting 6 topics...
+=================================================================
+Average fit time: 257
+Accuracy: -62308417 (+/- 9867931)
+
+Topic #1:
+hnrnpa0b, hmgb2a, khdrbs1a, cirbpb, hnrnpa0l, LOC561719, LOC100006216, cirbpa, hmga1a, eef1a1l1
+Topic #2:
+cirbpb, wu:fb18c02, hnrnpa0b, khdrbs1a, LOC561719, hnrnpa0l, hmgb2a, cirbpa, eef1a1l1, hmga1a
+Topic #3:
+hmgb2a, apoeb, marcksl1b, cirbpb, hnrnpa0l, khdrbs1a, LOC561719, cirbpa, hmga1a, eef1a1l1
+Topic #4:
+cirbpb, LOC100006216, hnrnpa0b, hmgb2a, khdrbs1a, LOC561719, hnrnpa0l, cirbpa, hmga1a, eef1a1l1
+Topic #5:
+h3f3d, cirbpb, khdrbs1a, hmgb2a, hnrnpa0l, LOC561719, hnrnpa0b, cirbpa, hmga1a, eef1a1l1
+Topic #6:
+LOC561719, hspb6, hnrnpa0l, khdrbs1a, krt8, lye, cirbpa, krt18, hmga1a, eef1a1l1
+Perplexity: 2638
+
+6	2638.695110542048
+Fitting 7 topics...
+=================================================================
+Average fit time: 267
+Accuracy: -62347468 (+/- 9909158)
+
+Topic #1:
+cirbpb, cx43.4, hmgb2a, hnrnpa0b, khdrbs1a, LOC561719, hnrnpa0l, cirbpa, hmga1a, eef1a1l1
+Topic #2:
+cirbpb, hmgb2a, apoeb, khdrbs1a, LOC561719, hnrnpa0b, hnrnpa0l, cirbpa, hmga1a, eef1a1l1
+Topic #3:
+ptmab, khdrbs1a, hspb1, hnrnpa0l, hnrnpa0b, LOC561719, hmgb2a, cirbpa, eef1a1l1, hmga1a
+Topic #4:
+hmgb2a, LOC557268, hnrnpa0l, cirbpb, LOC561719, LOC100334652, cirbpa, hmga1a, eef1a1l1, LOC100006216
+Topic #5:
+cirbpb, wu:fb18c02, LOC561719, khdrbs1a, hnrnpa0b, hnrnpa0l, hmgb2a, cirbpa, eef1a1l1, hmga1a
+Topic #6:
+hmgb2a, hnrnpa0l, cirbpb, khdrbs1a, hspb6, marcksl1b, LOC561719, cirbpa, hmga1a, eef1a1l1
+Topic #7:
+hspb1, hmgb2a, cirbpb, hnrnpa0l, LOC561719, khdrbs1a, hnrnpa0b, cirbpa, hmga1a, eef1a1l1
+Perplexity: 2618
+
+7	2618.246074944295
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TIME STEP: 10
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 10...
+Data size: (4280, 30677)
+Number of topics	Perplexity
+Fitting 3 topics...
+=================================================================
+Average fit time: 223
+Accuracy: -90057296 (+/- 7187848)
+
+Topic #1:
+hsp90ab1, rps12, rplp1, LOC101885203, rpl7a, wu:fb18c02, cirbpb, cirbpa, hmga1a, eef1a1l1
+Topic #2:
+khdrbs1a, hspb1, hnrnpa0l, ptmab, cirbpb, LOC101885203, wu:fb18c02, eef1a1l1, cirbpa, hmga1a
+Topic #3:
+khdrbs1a, h3f3d, apoeb, actb2, LOC561719, cirbpb, LOC101885203, cirbpa, hmga1a, eef1a1l1
+Perplexity: 2081
+
+3	2081.4682159884846
+Fitting 4 topics...
+=================================================================
+Average fit time: 255
+Accuracy: -90045249 (+/- 7175614)
+
+Topic #1:
+khdrbs1a, ybx1, tpt1, h3f3d, cirbpb, LOC561719, LOC101885203, cirbpa, hmga1a, eef1a1l1
+Topic #2:
+khdrbs1a, hnrnpa0l, hspb1, cirbpb, ptmab, wu:fb18c02, LOC101885203, eef1a1l1, cirbpa, hmga1a
+Topic #3:
+hnrnpa0l, hsp90ab1, khdrbs1a, rpl7a, LOC101885203, cirbpb, wu:fb18c02, cirbpa, hmga1a, eef1a1l1
+Topic #4:
+khdrbs1a, LOC561719, h3f3d, LOC101885203, actb2, cirbpb, apoeb, cirbpa, hmga1a, eef1a1l1
+Perplexity: 2064
+
+4	2064.3220512486887
+Fitting 5 topics...
+=================================================================
+Average fit time: 303
+Accuracy: -90050500 (+/- 7146589)
+
+Topic #1:
+h3f3d, hnrnpa0l, khdrbs1a, hsp90ab1, LOC101885203, cirbpb, wu:fb18c02, cirbpa, hmga1a, eef1a1l1
+Topic #2:
+rplp1, h3f3d, si:ch211-147d7.5, rpl7a, LOC561719, LOC101885203, cirbpb, cirbpa, hmga1a, eef1a1l1
+Topic #3:
+LOC561719, cirbpb, hnrnpa0l, wu:fb18c02, hspb1, ptmab, LOC101885203, eef1a1l1, cirbpa, hmga1a
+Topic #4:
+LOC561719, wu:fb18c02, h3f3d, LOC101885203, actb2, cirbpb, apoeb, cirbpa, hmga1a, eef1a1l1
+Topic #5:
+actb2, khdrbs1a, cirbpb, tpt1, LOC561719, h3f3d, LOC101885203, cirbpa, hmga1a, eef1a1l1
+Perplexity: 2044
+
+5	2044.6112877483006
+Fitting 6 topics...
+=================================================================
+Average fit time: 314
+Accuracy: -90087071 (+/- 7148387)
+
+Topic #1:
+khdrbs1a, LOC561719, h3f3d, LOC101885203, cirbpb, actb2, apoeb, cirbpa, hmga1a, eef1a1l1
+Topic #2:
+khdrbs1a, si:ch211-147d7.5, h3f3d, hspb1, cirbpb, LOC561719, LOC101885203, cirbpa, hmga1a, eef1a1l1
+Topic #3:
+hsp90ab1, rps12, LOC101885203, rplp1, rpl7a, cirbpb, wu:fb18c02, cirbpa, hmga1a, eef1a1l1
+Topic #4:
+ptmab, h3f3d, hnrnpa0l, khdrbs1a, cirbpb, wu:fb18c02, LOC101885203, cirbpa, hmga1a, eef1a1l1
+Topic #5:
+khdrbs1a, hnrnpa0l, hspb1, cirbpb, ptmab, LOC101885203, wu:fb18c02, eef1a1l1, cirbpa, hmga1a
+Topic #6:
+tpt1, khdrbs1a, hnrnpa0l, cirbpb, h3f3d, LOC561719, LOC101885203, cirbpa, hmga1a, eef1a1l1
+Perplexity: 2027
+
+6	2027.5180567281927
+Fitting 7 topics...
+=================================================================
+Average fit time: 340
+Accuracy: -90121031 (+/- 7127797)
+
+Topic #1:
+khdrbs1a, hsp90ab1, ptmab, h3f3d, cirbpb, LOC101885203, wu:fb18c02, eef1a1l1, cirbpa, hmga1a
+Topic #2:
+LOC101885203, si:ch211-147d7.5, rps12, rplp1, rpl7a, wu:fb18c02, cirbpa, cirbpb, hmga1a, eef1a1l1
+Topic #3:
+khdrbs1a, LOC561719, h3f3d, LOC101885203, actb2, cirbpb, apoeb, cirbpa, hmga1a, eef1a1l1
+Topic #4:
+hnrnpa0l, LOC561719, cirbpb, wu:fb18c02, LOC101885203, ptmab, hspb1, eef1a1l1, cirbpa, hmga1a
+Topic #5:
+h3f3d, hsp90ab1, hnrnpa0l, khdrbs1a, cirbpb, LOC101885203, wu:fb18c02, cirbpa, eef1a1l1, hmga1a
+Topic #6:
+hnrnpa0l, khdrbs1a, h3f3d, actb2, LOC561719, cirbpb, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Topic #7:
+tpt1, cirbpb, h3f3d, LOC561719, actc1a, hm:zewp0073, LOC101885203, cirbpa, hmga1a, eef1a1l1
+Perplexity: 2008
+
+7	2008.81483517093
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TIME STEP: 14
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 14...
+Data size: (4001, 30677)
+Number of topics	Perplexity
+Fitting 3 topics...
+=================================================================
+Average fit time: 225
+Accuracy: -78823445 (+/- 4314046)
+
+Topic #1:
+rpl7a, h3f3d, hsp90ab1, tpt1, cirbpb, wu:fb18c02, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Topic #2:
+h3f3d, tpt1, cirbpb, cirbpa, LOC101885203, apoeb, hmga1a, actb2, tmsb4x, eef1a1l1
+Topic #3:
+hsp90ab1, ptmab, cirbpb, wu:fb18c02, actb2, LOC101885203, hmga1a, elavl3, cirbpa, eef1a1l1
+Perplexity: 2509
+
+3	2509.7931766152096
+Fitting 4 topics...
+=================================================================
+Average fit time: 244
+Accuracy: -78817325 (+/- 4300748)
+
+Topic #1:
+h3f3d, rplp1, rpl7a, actb2, wu:fb18c02, cirbpb, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Topic #2:
+tpt1, actb1, cirbpb, cirbpa, LOC101885203, apoeb, hmga1a, actb2, tmsb4x, eef1a1l1
+Topic #3:
+tpt1, khdrbs1a, hsp90ab1, ptmab, cirbpb, wu:fb18c02, LOC101885203, eef1a1l1, hmga1a, cirbpa
+Topic #4:
+h3f3d, rpl7a, cirbpb, slc25a5, tpt1, LOC561719, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Perplexity: 2448
+
+4	2448.091428152872
+Fitting 5 topics...
+=================================================================
+Average fit time: 264
+Accuracy: -78838731 (+/- 4313795)
+
+Topic #1:
+tpt1, cirbpb, actb1, cirbpa, LOC101885203, hmga1a, apoeb, actb2, eef1a1l1, tmsb4x
+Topic #2:
+hmgb2a, hspa8, rpl7a, hsp90ab1, cirbpb, wu:fb18c02, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Topic #3:
+tpt1, khdrbs1a, LOC561719, cirbpb, ptmab, wu:fb18c02, LOC101885203, eef1a1l1, cirbpa, hmga1a
+Topic #4:
+tpt1, wu:fb18c02, h3f3d, actb2, rpl7a, cirbpb, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Topic #5:
+elavl3, LOC561719, cirbpb, tpt1, rpl7a, slc25a5, hmga1a, cirbpa, LOC101885203, eef1a1l1
+Perplexity: 2429
+
+5	2429.7947769297366
+Fitting 6 topics...
+=================================================================
+Average fit time: 314
+Accuracy: -78828633 (+/- 4282985)
+
+Topic #1:
+tpt1, rplp0, rplp1, rpl7a, wu:fb18c02, cirbpb, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Topic #2:
+h3f3d, rpl7a, cirbpb, slc25a5, tpt1, LOC561719, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Topic #3:
+tpt1, actb1, cirbpb, cirbpa, LOC101885203, hmga1a, apoeb, actb2, tmsb4x, eef1a1l1
+Topic #4:
+LOC561719, khdrbs1a, hsp90ab1, cirbpb, ptmab, wu:fb18c02, LOC101885203, eef1a1l1, hmga1a, cirbpa
+Topic #5:
+ptmab, h3f3d, hsp90ab1, wu:fb18c02, cirbpb, actb2, LOC101885203, hmga1a, eef1a1l1, cirbpa
+Topic #6:
+emilin3a, zgc:174855, si:dkey-261h17.1, wu:fa26c03, zgc:174153, LOC101885203, actb2, MGC174155, si:dkey-26g8.4, eef1a1l1
+Perplexity: 2404
+
+6	2404.564912304778
+Fitting 7 topics...
+=================================================================
+Average fit time: 374
+Accuracy: -78877833 (+/- 4247335)
+
+Topic #1:
+hsp90ab1, ptmab, cirbpb, hmga1a, LOC101885203, wu:fb18c02, actb2, cirbpa, eef1a1l1, elavl3
+Topic #2:
+rps27a, h3f3d, tpt1, rplp1, rpl7a, cirbpb, cirbpa, hmga1a, LOC101885203, eef1a1l1
+Topic #3:
+ctsl1b, hmga1a, cirbpa, zgc:174855, LOC101885203, wu:fa26c03, zgc:174153, MGC174155, si:dkey-26g8.4, eef1a1l1
+Topic #4:
+krt4, cirbpb, actb1, cirbpa, LOC101885203, hmga1a, apoeb, eef1a1l1, actb2, tmsb4x
+Topic #5:
+hnrnpa0l, rpl7a, cirbpb, tpt1, slc25a5, LOC561719, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Topic #6:
+tpt1, hspa8, hsp90ab1, rpl7a, cirbpb, wu:fb18c02, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Topic #7:
+hsp90ab1, khdrbs1a, LOC561719, cirbpb, wu:fb18c02, ptmab, LOC101885203, eef1a1l1, cirbpa, hmga1a
+Perplexity: 2385
+
+7	2385.0773917177594
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TIME STEP: 18
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 18...
+Data size: (6962, 30677)
+Number of topics	Perplexity
+Fitting 3 topics...
+=================================================================
+Average fit time: 413
+Accuracy: -167117580 (+/- 53386971)
+
+Topic #1:
+eef2b, tpt1, rpl7a, rplp1, wu:fb18c02, hsp90ab1, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Topic #2:
+hbae3, LOC101885203, eef1a1l1, si:dkey-239j18.3, zgc:174153, wu:fa26c03, MGC174155, si:dkey-26g8.4, LOC100537766, he1a
+Topic #3:
+actb1, hmga1a, cirbpa, rpl7a, rplp1, tpt1, LOC101885203, eef1a1l1, tmsb4x, actb2
+Perplexity: 2405
+
+3	2405.708675180219
+Fitting 4 topics...
+=================================================================
+Average fit time: 568
+Accuracy: -166828127 (+/- 54083234)
+
+Topic #1:
+rpl7a, hmga1a, cirbpa, tpt1, actb1, krt4, LOC101885203, eef1a1l1, actb2, tmsb4x
+Topic #2:
+LOC101885203, si:dkey-239j18.3, actc1a, hm:zewp0073, zgc:174153, wu:fa26c03, eef1a1l1, MGC174155, si:dkey-26g8.4, he1a
+Topic #3:
+rplp0, rpl7a, tpt1, hsp90ab1, rplp1, hmga1a, actb2, cirbpa, LOC101885203, eef1a1l1
+Topic #4:
+tpt1, rpl7a, eef2b, rplp1, hsp90ab1, wu:fb18c02, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Perplexity: 2361
+
+4	2361.024392858733
+Fitting 5 topics...
+=================================================================
+Average fit time: 677
+Accuracy: -166542366 (+/- 53910610)
+
+Topic #1:
+eef2b, tpt1, rpl7a, rplp1, wu:fb18c02, hsp90ab1, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Topic #2:
+rpl7a, cirbpa, hmga1a, tpt1, actb1, krt4, LOC101885203, eef1a1l1, tmsb4x, actb2
+Topic #3:
+cirbpb, actb2, hsp90ab1, hmga1a, LOC101885203, ptmab, cirbpa, wu:fb18c02, elavl3, eef1a1l1
+Topic #4:
+ctslb, he1b, ctsl1b, zgc:174855, si:dkey-239j18.3, zgc:174153, wu:fa26c03, MGC174155, si:dkey-26g8.4, he1a
+Topic #5:
+hmga1a, hspa8, rplp0, eef2b, rpl7a, tpt1, rplp1, cirbpa, LOC101885203, eef1a1l1
+Perplexity: 2313
+
+5	2313.081203028531
+Fitting 6 topics...
+=================================================================
+Average fit time: 545
+Accuracy: -166522800 (+/- 53556479)
+
+Topic #1:
+rplp1, elavl3, ptmab, hsp90ab1, actb2, wu:fb18c02, hmga1a, cirbpa, LOC101885203, eef1a1l1
+Topic #2:
+ctslb, he1b, ctsl1b, zgc:174855, si:dkey-239j18.3, zgc:174153, wu:fa26c03, MGC174155, si:dkey-26g8.4, he1a
+Topic #3:
+tpt1, rpl7a, eef2b, rplp1, hspa8, hsp90ab1, hmga1a, LOC101885203, cirbpa, eef1a1l1
+Topic #4:
+rplp1, cirbpb, hmgb2a, hsp90ab1, ptmab, wu:fb18c02, LOC101885203, hmga1a, eef1a1l1, cirbpa
+Topic #5:
+rpl7a, hbae3, tpt1, rplp1, cirbpa, actc1a, hm:zewp0073, LOC100537766, LOC101885203, eef1a1l1
+Topic #6:
+pfn1, hmga1a, krt8, tpt1, actb1, LOC101885203, krt4, eef1a1l1, actb2, tmsb4x
+Perplexity: 2257
+
+6	2257.2757515062585
+Fitting 7 topics...
+=================================================================
+Average fit time: 561
+Accuracy: -166494328 (+/- 53926767)
+
+Topic #1:
+cfl1l, tpt1, apoeb, pfn1, LOC101885203, actb1, krt4, eef1a1l1, actb2, tmsb4x
+Topic #2:
+rpl7a, slc25a5, tpt1, rplp1, cirbpa, actc1a, hm:zewp0073, LOC101885203, elavl3, eef1a1l1
+Topic #3:
+rpl7a, tpt1, rplp1, eef2b, hmga1a, hsp90ab1, hspa8, cirbpa, LOC101885203, eef1a1l1
+Topic #4:
+rpl7a, cirbpb, rplp1, ptmab, hsp90ab1, wu:fb18c02, LOC101885203, hmga1a, cirbpa, eef1a1l1
+Topic #5:
+rplp0, hsp90ab1, rpl7a, tpt1, rplp1, actb2, hmga1a, cirbpa, LOC101885203, eef1a1l1
+Topic #6:
+cyt1, col2a1a, tpt1, slc25a5, LOC101885203, krt8, actb2, krt18, eef1a1l1, krt4
+Topic #7:
+ctslb, he1b, ctsl1b, zgc:174855, si:dkey-239j18.3, zgc:174153, wu:fa26c03, MGC174155, si:dkey-26g8.4, he1a
+Perplexity: 2260
+
+7	2260.3116906299006
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TIME STEP: 24
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 24...
+Data size: (7969, 30677)
+Number of topics	Perplexity
+Fitting 3 topics...
+=================================================================
+Average fit time: 401
+Accuracy: -143041009 (+/- 4861959)
+
+Topic #1:
+LOC100537766, eef1a1l1, MGC173646, LOC101885203, si:ch211-5k11.2, si:ch211-5k11.12, hbbe3, hbbe1.1, LOC100334599, hbae3
+Topic #2:
+tpt1, slc25a5, rpl7a, elavl3, hsp90ab1, krt4, LOC101885203, eef1a1l1, actb2, tmsb4x
+Topic #3:
+hmgn2, rplp0, rpl7a, hsp90ab1, ptmab, wu:fb18c02, hmga1a, cirbpa, LOC101885203, eef1a1l1
+Perplexity: 1844
+
+3	1844.837459111252
+Fitting 4 topics...
+=================================================================
+Average fit time: 437
+Accuracy: -142476434 (+/- 4817441)
+
+Topic #1:
+ptmab, rpl7a, slc25a5, hsp90ab1, krt4, elavl3, LOC101885203, eef1a1l1, actb2, tmsb4x
+Topic #2:
+LOC100537766, eef1a1l1, MGC173646, LOC101885203, si:ch211-5k11.2, si:ch211-5k11.12, hbbe3, hbbe1.1, LOC100334599, hbae3
+Topic #3:
+hmgn2, rplp0, rpl7a, hsp90ab1, ptmab, wu:fb18c02, hmga1a, cirbpa, LOC101885203, eef1a1l1
+Topic #4:
+si:dkey-269i1.3, ctsl1b, he1b, si:dkey-239j18.3, zgc:174153, wu:fa26c03, zgc:174855, MGC174155, si:dkey-26g8.4, he1a
+Perplexity: 1745
+
+4	1745.8382236594714
+Fitting 5 topics...
+=================================================================
+Average fit time: 503
+Accuracy: -142241926 (+/- 4844700)
+
+Topic #1:
+he1b, si:dkey-239j18.3, zgc:174153, wu:fa26c03, zgc:174855, MGC174155, tmsb4x, si:dkey-26g8.4, krt4, he1a
+Topic #2:
+rplp1, LOC556254, hsp90ab1, wu:fb18c02, ptmab, hmgn2, cirbpa, hmga1a, LOC101885203, eef1a1l1
+Topic #3:
+h3f3d, cirbpa, hsp90ab1, tmsb4x, actb2, LOC101885203, wu:fb18c02, ptmab, elavl3, eef1a1l1
+Topic #4:
+LOC100537766, eef1a1l1, LOC101885203, MGC173646, si:ch211-5k11.2, si:ch211-5k11.12, hbbe3, hbbe1.1, LOC100334599, hbae3
+Topic #5:
+rpl23, tpt1, rplp1, rplp0, hsp90ab1, rpl7a, cirbpa, actb2, LOC101885203, eef1a1l1
+Perplexity: 1679
+
+5	1679.3287036518961
+Fitting 6 topics...
+=================================================================
+Average fit time: 523
+Accuracy: -141970275 (+/- 4875368)
+
+Topic #1:
+hsp90ab1, tmsb4x, LOC556254, wu:fb18c02, hmgn2, ptmab, cirbpa, LOC101885203, hmga1a, eef1a1l1
+Topic #2:
+LOC100537766, eef1a1l1, LOC101885203, MGC173646, si:ch211-5k11.2, si:ch211-5k11.12, hbbe3, hbbe1.1, LOC100334599, hbae3
+Topic #3:
+h3f3d, tmsb4x, cirbpa, actb2, wu:fb18c02, hsp90ab1, ptmab, LOC101885203, eef1a1l1, elavl3
+Topic #4:
+rpl23, rps27a, rplp1, rplp0, rpl7a, hsp90ab1, hmga1a, cirbpa, eef1a1l1, LOC101885203
+Topic #5:
+rpl23, rplp1, hsp90ab1, tpt1, rpl7a, actb1, LOC101885203, eef1a1l1, actb2, tmsb4x
+Topic #6:
+ctsl1b, he1b, si:dkey-239j18.3, zgc:174153, wu:fa26c03, zgc:174855, MGC174155, si:dkey-26g8.4, krt4, he1a
+Perplexity: 1636
+
+6	1636.4523638769122
+Fitting 7 topics...
+=================================================================
+Average fit time: 570
+Accuracy: -141895133 (+/- 4928192)
+
+Topic #1:
+actb2, LOC556254, tmsb4x, hmgn2, cirbpa, ptmab, wu:fb18c02, LOC101885203, hmga1a, eef1a1l1
+Topic #2:
+rpl23, rplp1, hsp90ab1, tpt1, rpl7a, actb1, LOC101885203, eef1a1l1, actb2, tmsb4x
+Topic #3:
+LOC100537766, eef1a1l1, LOC101885203, MGC173646, si:ch211-5k11.2, si:ch211-5k11.12, hbbe3, hbbe1.1, LOC100334599, hbae3
+Topic #4:
+rpl7a, wu:fb18c02, hmgb2a, zgc:123194, ptmab, hmgn2, cirbpa, hmga1a, eef1a1l1, LOC101885203
+Topic #5:
+slc25a5, h3f3d, tmsb4x, hsp90ab1, cirbpa, wu:fb18c02, LOC101885203, ptmab, eef1a1l1, elavl3
+Topic #6:
+ctsl1b, he1b, si:dkey-239j18.3, zgc:174153, wu:fa26c03, zgc:174855, MGC174155, si:dkey-26g8.4, krt4, he1a
+Topic #7:
+rpl23, rps27a, rplp1, rplp0, rpl7a, hsp90ab1, hmga1a, cirbpa, eef1a1l1, LOC101885203
+Perplexity: 1613
+
+7	1613.6615088898375
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

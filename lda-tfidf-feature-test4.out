@@ -1,0 +1,37 @@
+loading gene names ...
+TIME STEP: 4
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 4...
+Performing feature selection with variance threshold
+(4277, 14606)
+Performing tf-idf transformation...
+Data size: (4277, 14606)
+Number of topics	Perplexity
+Fitting 2 topics...
+=================================================================
+Average fit time: 72
+Accuracy: -427506 (+/- 16711)
+
+Topic #1:
+btr12, LOC101884939, dpp3, LOC101884494, LOC100334999, LOC101882283, LOC103909314, LOC103911362, LOC101884484, LOC100005571
+Topic #2:
+LOC103909270, LOC103909764, LOC103909268, LOC100151031, LOC103909350, LOC103909070, LOC101885809, LOC101884204, dthd1, LOC103909353
+Perplexity: 12325
+
+2	12325.558471072496
+Fitting 3 topics...
+=================================================================
+Average fit time: 56
+Accuracy: -431343 (+/- 16717)
+
+Topic #1:
+LOC103909270, LOC103909764, LOC103909268, LOC100151031, LOC103909350, LOC103909070, LOC101885809, LOC101884204, dthd1, LOC103909353
+Topic #2:
+LOC103911362, LOC100535455, LOC103912014, LOC564234, agtpbp1, LOC103911739, LOC100334999, LOC101886864, LOC103909586, ccdc22
+Topic #3:
+LOC103911362, LOC100535455, LOC103912014, LOC564234, agtpbp1, LOC103911739, LOC100334999, LOC101886864, LOC103909586, ccdc22
+Perplexity: 12694
+
+3	12694.904414009216
+Fitting 4 topics...
+=================================================================

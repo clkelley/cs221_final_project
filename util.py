@@ -43,7 +43,7 @@ def baseline():
     common_norm = la.norm(data[:, common])
     print("Baseline reconstruction error:", np.sqrt(dnorm**2 - common_norm** 2) / dnorm)
 
-def load_regular_sample_file(data_folder, time, sparse_matrix=False):
+def load_regular_sample_file(data_folder, time, sparse_matrix=False, csc_matrix=False):
     """
     Load data from a single time step file.
 
@@ -69,6 +69,9 @@ def load_regular_sample_file(data_folder, time, sparse_matrix=False):
     data = df.values[:, 1:].astype(np.float).T
     if not sparse_matrix:
         return data
+    if csc_matrix:
+        sata = sparse.csc_matrix(data)
+        return sata
     # Make data sparse
     sata = sparse.dok_matrix(data)
     return sata

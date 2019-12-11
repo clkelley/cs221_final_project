@@ -5,6 +5,7 @@ import scipy.sparse as sparse
 import scipy.sparse.linalg as sla
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
+import csv
 
 DEBUG = False
 SAMPLE_IDS = {4: 89, 6: 90, 8: 91, 10: 92, 14:93, 18: 94, 24: 95}
@@ -81,6 +82,50 @@ def load_regular_sample_file(data_folder, time, sparse_matrix=False):
 def clean_data(data):
     raise NotImplementedError
 
+def get_data_name(at_index, data_folder, time):
+    # GSM3067189_04hpf
+    prefix = "GSM30671"
+    sample = SAMPLE_IDS[time]
+    time = "{:02d}".format(time)
+    postfix = "hpf.csv"
+    filename = f'{prefix}{sample}_{time}{postfix}'
+    csv_file_path = data_folder + "/" + filename
+    with open(csv_file_path, newline='') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            return row[at_index]
+            break
+
+def create_feature_name_file(data_folder, time):
+    prefix = "GSM30671"
+    sample = SAMPLE_IDS[time]
+    time = "{:02d}".format(time)
+    postfix = "hpf.csv"
+    filename = f'{prefix}{sample}_{time}{postfix}'
+    csv_file_path = data_folder + "/" + filename
+    feature_names = {}
+    with open(csv_file_path, newline='') as f:
+        reader = csv.reader(f)
+        index = -1
+        for row in reader:
+            feature_names[index] = row[0]
+            index += 1
+    np.save("hour"+str(time)+"featurenames", feature_names)
+
+def get_feature_name_list(indexes, data_folder, time):
+    prefix = "GSM30671"
+    sample = SAMPLE_IDS[time]
+    time = "{:02d}".format(time)
+    postfix = "hpf.csv"
+    filename = f'{prefix}{sample}_{time}{postfix}'
+    csv_file_path = data_folder + "/" + filename
+    with open(csv_file_path, newline='') as f:
+        reader = csv.reader(f)
+
+        for row in reader:
+            return [str(index) + ":" + str(row[index]) for index in indexes]
+            break
+
 def visualize_sample(data):
     """
     Plot the first 2 PCA components of the data
@@ -91,6 +136,9 @@ def visualize_sample(data):
     expl_var_1, expl_var_2 = pca.explained_variance_ratio_
 
     plt.scatter(pca.components_[0,:], pca.components_[1,:])
+    for i in range(len(data)):
+        print(pca.components_[0,i])
+
     plt.xlabel(f'1st PCA component, {100 * expl_var_1:.1f}% variance')
     plt.ylabel(f'2nd PCA component, {100 * expl_var_2:.1f}% variance')
     plt.title('First 2 PCA components')

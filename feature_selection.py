@@ -28,13 +28,13 @@ def remove_low_variance(data):
     #https://scikit-learn.org/stable/modules/feature_selection.html
     #X = [[0, 0, 1], [0, 1, 0], [1, 0, 0], [0, 1, 1], [0, 1, 0], [0, 1, 1]]
     #if features have low variance in 40% of samples, trim
-    sel = feature_selection.VarianceThreshold(threshold=.25)
+    sel = feature_selection.VarianceThreshold(threshold=(1-0.05)*0.05)
     new_dataset = sel.fit_transform(data)
     selected_feature_indicies = sel.get_support(indices=True)
     print(len(selected_feature_indicies))
     print(selected_feature_indicies)
-    np.save("list of chosen features", selected_feature_indicies)
-    np.save("low_variance_dataset_alpha25", new_dataset)
+    np.save("list of chosen features_05", selected_feature_indicies)
+    np.save("low_variance_dataset_alpha05_new", new_dataset)
     return new_dataset
 
 def univariate_selection():
@@ -56,16 +56,78 @@ def feature_agglomeration(data):
     for key in feature_groups.keys():
         print("{}: {}".format(key, len(feature_groups[key])))
 
+def feature_agglomeration_match_sets():
+    with open("feature_agglo_feature_clusters_fewer.json", "r") as agglo_cluster_file:
+        feature_agglo_clusters_05 = json.load(agglo_cluster_file)
+    with open("feature_agglo_feature_clusters_01_fewer.json", "r") as agglo_cluster_file:
+        feature_agglo_clusters_01 = json.load(agglo_cluster_file)
+    feature_dict = np.load("hour04featurenames.npy", allow_pickle=True).item()
+    print(feature_dict)
+    pubmed_match = {}
+    genes_clusters_1 = set()
+    genes_clusters_5 = set()
+    for key in feature_agglo_clusters_01:
+        #print(len(feature_agglo_clusters[key]))
+        if len(feature_agglo_clusters_01[key]) < 2:
+            for index in feature_agglo_clusters_01[key]:
+                genes_clusters_1.add(index)
+
+    for key in feature_agglo_clusters_05:
+        # print(len(feature_agglo_clusters[key]))
+        if len(feature_agglo_clusters_05[key]) < 2:
+            for index in feature_agglo_clusters_05[key]:
+                genes_clusters_5.add(index)
+    print(genes_clusters_1)
+    print(genes_clusters_5)
+    print(len(genes_clusters_1.intersection(genes_clusters_5)))
+
 
 def feature_agglomeration_analysis():
     with open("feature_agglo_feature_clusters.json", "r") as agglo_cluster_file:
         feature_agglo_clusters = json.load(agglo_cluster_file)
+    index_match = np.load("list of chosen features_05.npy")
+    print(index_match)
     feature_dict = np.load("hour04featurenames.npy", allow_pickle=True).item()
     print(feature_dict)
+    pubmed_match = {}
     for key in feature_agglo_clusters:
+        #get matching name from list of chosen featurs
         #print(len(feature_agglo_clusters[key]))
-        if len(feature_agglo_clusters[key]) < 10:
-            print([feature_dict[index] for index in feature_agglo_clusters[key]])
+        if len(feature_agglo_clusters[key]) > 0:
+            print([feature_dict[index_match[index]] for index in feature_agglo_clusters[key]])
+            for index in feature_agglo_clusters[key]:
+                gene_name = feature_dict[index_match[index]]
+                pubcount = get_genes_from_entrez(gene_name)
+                pubmed_match[gene_name] = pubcount
+    np.save("pubmed_count_hour04_all", pubmed_match)
+    print(pubmed_match)
+
+def feature_agglomeration_plots():
+    with open("feature_agglo_feature_clusters.json", "r") as agglo_cluster_file:
+        feature_agglo_clusters = json.load(agglo_cluster_file)
+    feature_dict = np.load("hour04featurenames.npy", allow_pickle=True).item()
+    index_match = np.load("list of chosen features_05.npy")
+    pubmed_counts = np.load("pubmed_count_hour04_all.npy").item()
+    clustersize_counts = collections.defaultdict(list)
+    for key in feature_agglo_clusters:
+        # print(len(feature_agglo_clusters[key]))
+        if len(feature_agglo_clusters[key]) > 0:
+            this_cluster_counts = []
+            for index in feature_agglo_clusters[key]:
+                this_cluster_counts.append(pubmed_counts[feature_dict[index_match[index]]])
+            clustersize_counts[len(feature_agglo_clusters[key])].append(sum(this_cluster_counts)/len(this_cluster_counts))
+    print(clustersize_counts)
+    pub_sum = []
+    for key in pubmed_counts:
+        pub_sum.append(pubmed_counts[key])
+    print(np.median(pub_sum))
+    #avg:  np.median(clustersize_counts[clustersize])
+    plt.bar(sorted(clustersize_counts.keys()), [sum(clustersize_counts[clustersize])/len(clustersize_counts[clustersize]) for clustersize in sorted(clustersize_counts.keys())], width=10)
+    plt.xlabel('Number of gene expressions in a cluster')
+    plt.ylabel('Number of related PubMed articles')
+    plt.title('Average number of related PubMed articles per gene cluster averaged over clusters of this size')
+    plt.show()
+
 
 def get_genes_from_entrez(gene_name):
     #get gene_id based on text
@@ -74,6 +136,8 @@ def get_genes_from_entrez(gene_name):
     esearch = ncbi.esearch(db="gene", term=gene_name)
     res = ncbi.read(esearch)
     print(res)
+    if len(res['IdList']) == 0:
+        return 0
     id= res['IdList'][0]
 
     #get number of pubmed entries for that gene
@@ -204,8 +268,8 @@ def main():
     #sparse_data = util.load_regular_sample_file("GSE112294_RAW", 4, sparse_matrix=True)
     #pfa(matrix_data)
     #remove_low_variance(matrix_data)
-    #print(np.load("low_variance_dataset.npy").shape)
-    #feature_agglomeration(np.load("low_variance_dataset_alpha01.npy"))
+    #print(np.load("low_variance_dataset_alpha01.npy").shape)
+    #feature_agglomeration(np.load("low_variance_dataset_alpha05_new.npy"))
     #kmeans_difference()
     #identify_outliers(sparse_data)
     #data_sans_outliers = [matrix_data[i] for i in range(len(matrix_data)) if i not in lof1]
@@ -222,8 +286,11 @@ def main():
     #variance_plot(matrix_data)
     #outlier_plot(matrix_data)
     #util.create_feature_name_file("GSE112294_RAW",4)
-    feature_agglomeration_analysis()
-    get_genes_from_entrez("LOC101884179")
+    #feature_agglomeration_analysis()
+    feature_agglomeration_plots()
+
+    #get_genes_from_entrez("LOC101884179")
+    #feature_agglomeration_match_sets()
     return 0
 
 main()

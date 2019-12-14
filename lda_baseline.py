@@ -8,6 +8,7 @@ from sklearn.decomposition import LatentDirichletAllocation
 from sklearn.model_selection import cross_validate
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_selection import VarianceThreshold
+from sklearn.preprocessing import Binarizer
 
 import util
 
@@ -68,21 +69,27 @@ def perform_lda(data, gene_names, k):
 
     return perplexity
 
-def cross_validate_lda(gene_names, time_steps, feature_selection=True, tf_idf=False):
+def cross_validate_lda(gene_names, time_steps, binarize=False, min_feat_prob=0, tf_idf=False):
     for time in time_steps:
         print(f'TIME STEP: {time}')
         print('+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++')
         print(f'Loading file for time {time}...')
         data = sparse.load_npz(f'{time}hpf_sparse.npz')
-        if feature_selection:
+
+        if binarize:
+            print("Binarizing data with cutoff 0.0")
+            binarizer = Binarizer()
+            data = binarizer.transform(data)
+        if min_feat_prob != 0:
             print("Performing feature selection with variance threshold")
-            sel = VarianceThreshold(threshold=(.99 * (1 - .99)))
+            print(f'Removing features that are the same in at least {min_feat_prob} samples')
+            sel = VarianceThreshold(threshold=(min_feat_prob * (1 - min_feat_prob)))
             data = sel.fit_transform(data)
-        if tf_idf:
-            print(data.shape)
-            print("Performing tf-idf transformation...")
-            tfidf = TfidfTransformer(smooth_idf=True)
-            data = tfidf.fit_transform(data)
+#         if tf_idf:
+#             print(data.shape)
+#             print("Performing tf-idf transformation...") 
+#             tfidf = TfidfTransformer(smooth_idf=True)
+#             data = tfidf.fit_transform(data)
         print(f'Data size: {data.shape}')
 
         # k is hyperparameter (number of topics)
@@ -119,6 +126,17 @@ def tf_idf(data):
     tfidf = TfidfTransfomer(smooth_idf=False)
     new_data = tfidf.fit_transform(data)
     return new_data 
+
+def feature_selection(gene_names, times):
+    """
+    Test feature selection variance cutoffs
+
+    :param times: list of time steps to test feature selection on
+    """
+    for i in np.arange(0.1, 0.5, 0.05):
+        cross_validate_lda(gene_names, times, binarize=True, min_feat_prob=i)
+
+
  
 def main():
     # load()
@@ -134,10 +152,21 @@ def main():
     # plot_convergence(PP_10, 10)
     # plot_convergence(PP_24, 24)
     # save_data()
+    
+    #######
+    # Test various data transformations on the 4hpf data #
+    ######
 
-    # time_steps = util.SAMPLE_IDS.keys()
+    time_steps = util.SAMPLE_IDS.keys()
     # cross_validate_lda(gene_names, time_steps, tf_idf=True)
-    cross_validate_lda(gene_names, [4], feature_selection=True, tf_idf=True)
+    # cross_validate_lda(gene_names, [4], feature_selection=True, tf_idf=True)
+    # cross_validate_lda(gene_names, [4], binarize=True)
+    # cross_validate_lda(gene_names, [4], binarize=True, feature_selection=True)
+
+    # feature_selection(gene_names, [4])
+
+    cross_validate_lda(gene_names, time_steps, binarize=True, 
+            min_feat_prob=0.01)
 
 
 if __name__ == "__main__":

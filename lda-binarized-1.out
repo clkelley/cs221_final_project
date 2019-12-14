@@ -1,0 +1,953 @@
+loading gene names ...
+TIME STEP: 4
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 4...
+Binarizing data with cutoff 0.0
+Performing feature selection with variance threshold
+Removing features that are the same in at least 0.01 samples
+Data size: (4277, 13841)
+Number of topics	Perplexity
+Fitting 2 topics...
+=================================================================
+Average fit time: 299
+Accuracy: -17606069 (+/- 1964804)
+
+Topic #1:
+LOC568833, LOC100150003, LOC103910502, LOC103908660, LOC103909330, LOC103908853, LOC100330359, LOC103911575, LOC103908928, LOC103908931
+Topic #2:
+LOC101883261, LOC103908850, LOC103908855, aqp12, LOC103911679, LOC101885590, LOC101883790, LOC103911341, LOC103910757, cdh18a
+Perplexity: 7690
+
+2	7690.144342786825
+Fitting 3 topics...
+=================================================================
+Average fit time: 253
+Accuracy: -17644067 (+/- 1970597)
+
+Topic #1:
+ccdc127b, LOC103909330, LOC567909, LOC100150003, LOC103908820, LOC103910138, LOC567622, LOC100536116, defbl1, LOC565948
+Topic #2:
+LOC103910502, LOC103908826, LOC100330359, LOC103911575, LOC103908855, LOC103908851, LOC103908931, LOC568833, LOC103909330, LOC103908928
+Topic #3:
+LOC100334992, LOC100150003, defbl1, LOC103908853, atg3, LOC103910138, LOC103911098, LOC103908660, LOC100536577, LOC103908928
+Perplexity: 7715
+
+3	7715.870680333797
+Fitting 4 topics...
+=================================================================
+Average fit time: 285
+Accuracy: -17678400 (+/- 1969184)
+
+Topic #1:
+LOC103911575, LOC568833, LOC103908851, LOC103909330, LOC100330359, LOC103910138, LOC103908660, LOC103908928, LOC103908931, LOC100150003
+Topic #2:
+LOC101883271, LOC103910138, LOC567912, LOC568392, LOC567984, add1, LOC103911711, apoc2, LOC103911098, LOC103910527
+Topic #3:
+LOC103909330, aqp12, LOC103908855, LOC103908850, LOC103908928, LOC568833, LOC103908931, LOC103911575, LOC103910502, LOC103908851
+Topic #4:
+LOC103908928, LOC566011, cebpd, LOC103908855, LOC103908820, LOC568833, LOC103908853, LOC100334992, LOC103909330, LOC100330359
+Perplexity: 7674
+
+4	7674.529357963073
+Fitting 5 topics...
+=================================================================
+Average fit time: 328
+Accuracy: -17711249 (+/- 1968565)
+
+Topic #1:
+LOC103908660, LOC100330359, LOC568833, LOC103908853, LOC103910502, LOC103909330, LOC103908931, LOC103911575, LOC103908851, LOC103908928
+Topic #2:
+LOC103908851, LOC101882290, cebpd, LOC101884335, LOC103908657, LOC103910100, dgat1b, aqp12, LOC103908855, LOC101883790
+Topic #3:
+LOC103909036, LOC101885455, csf1b, LOC565948, LOC567912, defbl1, LOC103910542, LOC101883271, LOC103910138, c22h19orf44
+Topic #4:
+dcakd, LOC103909831, LOC101883276, LOC103911679, LOC101884706, aup1, LOC101882301, LOC100536500, LOC101883262, btbd6b
+Topic #5:
+LOC103908820, LOC103909330, LOC103908853, LOC568833, LOC103910138, LOC103908660, LOC103908928, LOC100330359, LOC103908931, LOC100150003
+Perplexity: 7613
+
+5	7613.996244542454
+Fitting 6 topics...
+=================================================================
+Average fit time: 321
+Accuracy: -17741290 (+/- 1970098)
+
+Topic #1:
+LOC103908826, LOC103908931, LOC103908820, LOC103911098, LOC103908928, LOC566921, LOC103910138, LOC101884367, LOC103908853, LOC567978
+Topic #2:
+LOC103910542, LOC103911039, LOC797876, c8g, LOC100537246, LOC101884703, LOC101884369, LOC101884341, LOC101882301, LOC101883796
+Topic #3:
+LOC568833, LOC103911575, LOC103908928, LOC103908851, LOC100330359, LOC103909330, LOC566011, LOC103908855, LOC103908660, LOC103908931
+Topic #4:
+LOC103908853, LOC103908855, LOC103908931, LOC568833, LOC100330359, LOC103910502, LOC103911575, LOC103909330, LOC103908928, LOC103908851
+Topic #5:
+LOC103908853, LOC565948, LOC103909330, LOC103908928, LOC103908660, LOC100330359, LOC103911575, LOC103908931, LOC103910138, LOC100150003
+Topic #6:
+LOC100150003, LOC566011, LOC103908850, LOC100330359, LOC101883276, LOC103908931, LOC103908660, LOC103908855, LOC103911098, LOC568833
+Perplexity: 7647
+
+6	7647.934616042074
+Fitting 7 topics...
+=================================================================
+Average fit time: 344
+Accuracy: -17763424 (+/- 1968945)
+
+Topic #1:
+cox6b2, LOC100536577, LOC100150003, LOC103909330, LOC103911575, LOC103908931, LOC101885317, LOC571499, c22h19orf44, dfnb59
+Topic #2:
+LOC103908820, LOC103911575, LOC103908851, LOC103908660, LOC568833, LOC103909330, LOC103908853, LOC100330359, LOC103908931, LOC103908928
+Topic #3:
+LOC103911734, LOC103909695, LOC101882084, LOC103909861, c8g, LOC103908927, LOC103911539, LOC103908652, LOC103910343, LOC103910100
+Topic #4:
+LOC565948, cpamd8, LOC100330359, LOC100334992, LOC103911575, LOC103908660, LOC103908931, LOC100150003, LOC103908928, LOC568833
+Topic #5:
+LOC101883271, LOC567622, LOC567912, cpamd8, defbl1, LOC568392, LOC101886823, LOC565948, LOC100536116, LOC103910138
+Topic #6:
+LOC103909480, LOC103910502, LOC103908855, LOC103911341, LOC103911575, LOC101884360, aqp12, LOC103911101, cebpd, LOC103910923
+Topic #7:
+LOC103911575, LOC103908851, LOC100150003, LOC568833, LOC100330359, LOC103908931, LOC566011, LOC103908660, LOC103908928, LOC103909330
+Perplexity: 7649
+
+7	7649.858468513205
+Fitting 8 topics...
+=================================================================
+Average fit time: 313
+Accuracy: -17768223 (+/- 1971775)
+
+Topic #1:
+LOC103911679, LOC101885366, cebpd, LOC103908843, LOC100537716, LOC101884431, LOC100537428, LOC101882606, LOC101884360, ascl1a
+Topic #2:
+LOC103908660, LOC103911098, LOC103908928, LOC568833, LOC103908853, LOC100330519, LOC101884367, defbl1, LOC101886823, LOC103910138
+Topic #3:
+LOC103908851, LOC568833, LOC103910502, LOC100150003, LOC103908853, LOC103911575, LOC103909330, LOC100330359, LOC103908931, LOC103908928
+Topic #4:
+LOC103911079, LOC103908752, dachc, LOC103908727, LOC103911313, LOC100535556, LOC101886071, LOC569958, LOC100334758, LOC103908860
+Topic #5:
+LOC103908928, LOC103908853, LOC103910757, cebpd, LOC100330359, LOC103911575, LOC103908855, LOC103909330, LOC103908851, LOC568833
+Topic #6:
+aqp12, LOC103908660, LOC103908851, LOC103908820, LOC100537428, LOC103911575, LOC103908855, LOC103908850, LOC103908657, LOC101884720
+Topic #7:
+LOC103911098, cers3, LOC101886823, LOC566921, LOC567622, cpamd8, LOC568392, LOC565948, LOC103910138, LOC100536116
+Topic #8:
+bend3, LOC103909480, LOC101885403, LOC103908652, LOC101883263, LOC101884335, LOC101884360, LOC101885590, c8g, LOC101883790
+Perplexity: 7690
+
+8	7690.020621048408
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TIME STEP: 6
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 6...
+Binarizing data with cutoff 0.0
+Performing feature selection with variance threshold
+Removing features that are the same in at least 0.01 samples
+Data size: (5692, 16817)
+Number of topics	Perplexity
+Fitting 2 topics...
+=================================================================
+Average fit time: 349
+Accuracy: -42003126 (+/- 2147986)
+
+Topic #1:
+LOC101885403, LOC103911411, LOC103910716, brd8, LOC101886790, brwd3, glcci1, LOC101885678, brdt, bsdc1
+Topic #2:
+ftr02, LOC100149388, LOC103912051, LOC103910170, btg4, btr07, dicp1.1, LOC103910837, ddb2, ifit10
+Perplexity: 7964
+
+2	7964.865870721507
+Fitting 3 topics...
+=================================================================
+Average fit time: 390
+Accuracy: -42049907 (+/- 2148809)
+
+Topic #1:
+buc, LOC100002384, def8, derl3, LOC101883358, LOC101883597, LOC101882162, eef2a.1, LOC100149443, LOC100330256
+Topic #2:
+arrb2a, brdt, actr3, diaph2, glulb, LOC103911940, LOC103910929, brwd3, ccbe1, gemin2
+Topic #3:
+btr21, LOC103911933, dnajc2, LOC103910837, cbwd, LOC103909872, LOC101886754, igdcc4, dicp1.1, LOC103910707
+Perplexity: 7950
+
+3	7950.372780419319
+Fitting 4 topics...
+=================================================================
+Average fit time: 515
+Accuracy: -42099582 (+/- 2147601)
+
+Topic #1:
+LOC103910207, LOC103910715, LOC103910533, LOC103909375, LOC101884914, LOC101885586, LOC101885532, bricd5, btbd10a, agpat2
+Topic #2:
+actr3b, ddb2, LOC103909399, cyp11a2, btr21, btg4, cabp5b, ddah1, LOC103908778, LOC103909671
+Topic #3:
+LOC101883966, aurkb, LOC100002384, LOC103910112, def8, LOC101883358, LOC100149443, LOC101882162, eef2a.1, LOC100330256
+Topic #4:
+aqp1a.1, LOC795381, cbwd, diaph2, LOC103910837, igdcc4, btaf1, ifit10, fgfr1b, dicp1.1
+Perplexity: 7934
+
+4	7934.748057177355
+Fitting 5 topics...
+=================================================================
+Average fit time: 553
+Accuracy: -42154261 (+/- 2148128)
+
+Topic #1:
+hmgcrb, LOC103911279, dicer1, drd7, gemin2, LOC101886078, LOC103912051, LOC101886948, dicp1.1, diaph2
+Topic #2:
+LOC101885412, LOC568110, ar, atxn7l2a, LOC100537098, LOC101885539, asb16, fgfr1b, LOC101884271, brwd3
+Topic #3:
+LOC101886825, LOC101883358, LOC103910112, LOC101882162, eif4bb, def8, LOC100149443, LOC103909776, eef2a.1, LOC100330256
+Topic #4:
+LOC103910929, LOC103911933, LOC101886647, btr16, avl9, LOC101885412, LOC100002384, btg4, asb16, chek1
+Topic #5:
+LOC101886849, bricd5, ftr02, alox12, btr04, LOC103908656, brsk1, chek1, bsnd, LOC101885302
+Perplexity: 7957
+
+5	7957.029668418378
+Fitting 6 topics...
+=================================================================
+Average fit time: 577
+Accuracy: -42206379 (+/- 2140552)
+
+Topic #1:
+cby1, LOC103909152, LOC103909989, LOC101885412, LOC101883966, LOC100333030, LOC103910219, hp1bp3, flr, LOC103910170
+Topic #2:
+btr21, LOC101887029, LOC103909179, chek1, cox5aa, LOC103909750, LOC103910637, LOC103910716, dynll2a, atxn7l2a
+Topic #3:
+LOC101884025, LOC103911167, LOC101887114, buc, cox4i1, LOC795381, LOC101883597, brdt, c10h21orf59, LOC103910718
+Topic #4:
+LOC101884133, foxp3a, LOC101885023, LOC100333838, dcun1d2a, btr07, LOC101883597, LOC101884460, LOC101885547, dera
+Topic #5:
+LOC101887011, LOC103910112, LOC101883358, eif4bb, LOC103909776, LOC100149443, def8, LOC101882162, LOC100330256, eef2a.1
+Topic #6:
+gemin2, LOC100149388, dicer1, LOC101884271, LOC103912051, LOC103910837, LOC101886949, ifit10, diaph2, dicp1.1
+Perplexity: 7958
+
+6	7958.338978344676
+Fitting 7 topics...
+=================================================================
+Average fit time: 621
+Accuracy: -42250202 (+/- 2142846)
+
+Topic #1:
+ccbe1, bscl2l, caly, LOC103910837, LOC101886587, LOC101885539, glulb, cby1, LOC799204, brd8
+Topic #2:
+LOC103909437, LOC100333256, LOC101883714, LOC103911421, cd180, LOC103911419, LOC101886141, egf, LOC103911418, LOC103911720
+Topic #3:
+LOC565381, ccbe1, flrt3, LOC103910682, LOC103910170, LOC103909375, LOC101886790, LOC103908778, LOC101884412, cacna1g
+Topic #4:
+cab39, gemin2, arfip2b, hmgcrb, fgfr1op2, LOC100537098, LOC103908656, LOC101885539, LOC103908829, LOC101887114
+Topic #5:
+eif4ebp1, arrb2b, LOC101885547, brdt, LOC103909671, LOC101882664, LOC103910842, LOC799678, dnajc27, btg4
+Topic #6:
+LOC100002384, LOC103910112, eif4bb, LOC101883358, LOC103909776, def8, LOC100149443, LOC101882162, LOC100330256, eef2a.1
+Topic #7:
+btr07, btr12, LOC101883966, dicer1, ddb2, dicp1.1, cabp5b, cox4i1, diaph2, ifit10
+Perplexity: 7968
+
+7	7968.322368906502
+Fitting 8 topics...
+=================================================================
+Average fit time: 542
+Accuracy: -42301934 (+/- 2139283)
+
+Topic #1:
+ar, LOC103911275, LOC103910715, LOC103908778, LOC101885678, LOC103909176, fkbp1b, dera, ifit10, diaph2
+Topic #2:
+def8, LOC100149443, LOC103909872, LOC101887011, LOC101886754, LOC101883358, eef2a.1, LOC101882162, LOC103910112, LOC100330256
+Topic #3:
+LOC103911945, dnajc7, LOC103910207, LOC103910799, bre, glulb, LOC101883966, caly, LOC565490, btr21
+Topic #4:
+LOC103910429, LOC103909390, LOC103908829, crp4, LOC101882162, def8, btr02, eif4bb, LOC100149443, eef2a.1
+Topic #5:
+LOC103911421, hnrpdl, gpc3, LOC103911480, LOC100330257, LOC103911419, LOC101886153, LOC103911418, LOC101886156, LOC103911720
+Topic #6:
+epd, LOC100333256, LOC101885938, LOC103909935, LOC101885586, LOC100535229, crata, dnlz, aktip, LOC103908656
+Topic #7:
+LOC565381, LOC103910837, LOC103909375, dicp1.1, LOC101885539, cacna1g, LOC103910701, btr26, brms1lb, LOC101883674
+Topic #8:
+enoph1, LOC100149388, LOC101884428, ifit10, LOC101887029, LOC103912051, alkbh4, LOC103911589, btk, dicp1.1
+Perplexity: 7978
+
+8	7978.650967493441
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TIME STEP: 8
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 8...
+Binarizing data with cutoff 0.0
+Performing feature selection with variance threshold
+Removing features that are the same in at least 0.01 samples
+Data size: (3568, 18222)
+Number of topics	Perplexity
+Fitting 2 topics...
+=================================================================
+Average fit time: 221
+Accuracy: -25693753 (+/- 3057993)
+
+Topic #1:
+clockb, clcn3, LOC100334521, LOC101884619, LOC101886850, LOC103910976, LOC100002706, LOC100331208, LOC101883031, LOC100150296
+Topic #2:
+LOC103910150, LOC103911402, amacr, clcn6, LOC103911651, bud31, LOC103911573, hmbsb, cyb561d1, LOC101884648
+Perplexity: 8633
+
+2	8633.533798186243
+Fitting 3 topics...
+=================================================================
+Average fit time: 237
+Accuracy: -25738152 (+/- 3055187)
+
+Topic #1:
+LOC572369, amacr, hmbsb, LOC571372, LOC101882623, inpp5b, LOC103911573, cry-dash, LOC101884960, LOC101884648
+Topic #2:
+clybl, LOC101886082, cldn10l2, LOC101887096, LOC101884619, clpp, LOC101884884, clmp, cyb561d1, LOC103909603
+Topic #3:
+insig2, dnajc9, LOC101886850, LOC103910976, fhad1, LOC100002706, LOC101886947, LOC101883031, LOC100150296, LOC100331208
+Perplexity: 8612
+
+3	8612.782813231224
+Fitting 4 topics...
+=================================================================
+Average fit time: 289
+Accuracy: -25786274 (+/- 3058032)
+
+Topic #1:
+LOC101884991, LOC103910150, LOC103911651, hmbsb, itgb4, cyb561d1, foxc1a, LOC103910566, LOC101884989, isl1l
+Topic #2:
+cdkal1, fhad1, gfral, insig2, LOC101886850, LOC100002706, LOC103910976, LOC100150296, LOC101883031, LOC100331208
+Topic #3:
+clec3b, clcn3, apobec2a, arpc4, clybl, fbxo42, LOC572369, cldn11a, fhad1, dnajc9
+Topic #4:
+LOC103911565, ambp, cx52.9, atxn1a, atxn10, cant1a, cry-dash, inpp5b, fgf8b, LOC101884648
+Perplexity: 8617
+
+4	8617.204694728603
+Fitting 5 topics...
+=================================================================
+Average fit time: 373
+Accuracy: -25829180 (+/- 3048204)
+
+Topic #1:
+cldn10l2, clec3b, gls2b, cldn20, clk4a, glrx5, LOC101884581, LOC563806, LOC101884989, isl1l
+Topic #2:
+LOC103910976, LOC100002706, LOC101886850, LOC101886947, insig2, dnajc9, fhad1, LOC100150296, LOC101883031, LOC100331208
+Topic #3:
+map1sa, impa1, LOC103911982, cdkal1, gata1a, crfb15, inafm2, incenp, gsr, LOC101886947
+Topic #4:
+irf4l, LOC100002706, LOC103908672, hs6st1b, LOC100331208, LOC101883031, LOC100150296, cdkn2c, LOC103910664, LOC103909128
+Topic #5:
+fsbp, fbxo45, inpp5b, ftr53, clcn6, itgb4, LOC103910208, cyb561d1, manba, LOC101884648
+Perplexity: 8642
+
+5	8642.974487481071
+Fitting 6 topics...
+=================================================================
+Average fit time: 355
+Accuracy: -25873807 (+/- 3071872)
+
+Topic #1:
+grip2a, gabbr1a, LOC103911069, cldn15la, LOC103909103, armc4, LOC101884619, glud1a, LOC103909880, LOC795662
+Topic #2:
+LOC101886850, insig2, LOC103910976, LOC100002706, gsr, eef2l2, cdkal1, LOC100150296, LOC101883031, LOC100331208
+Topic #3:
+LOC100331208, LOC103910976, isl1l, LOC103911695, LOC103909128, cdkn2c, LOC100150296, LOC101883031, LOC103910640, LOC101886812
+Topic #4:
+ambp, clec3b, cldn17, clip1a, clybl, cyb561d1, clasp2, LOC101887155, clint1a, LOC101884648
+Topic #5:
+clcf1, h1m, LOC101886520, LOC100534893, LOC101884991, cldn10l2, clec3a, LOC101884960, clic5a, LOC103910598
+Topic #6:
+fbxo41, igf2a, LOC100535100, LOC101886945, fhad1, LOC100150296, dnajc9, LOC103910200, LOC100002706, LOC101886947
+Perplexity: 8666
+
+6	8666.298129064626
+Fitting 7 topics...
+=================================================================
+Average fit time: 395
+Accuracy: -25902382 (+/- 3061484)
+
+Topic #1:
+LOC101884989, foxc1b, ids, igf2a, LOC103910733, fh, LOC103910128, LOC100536629, LOC103910883, LOC563806
+Topic #2:
+clybl, clockb, edn3b, clip3, manba, ftr53, LOC103909935, LOC564755, inpp5b, LOC101886682
+Topic #3:
+esrra, LOC563569, LOC795662, LOC103909267, crtc3, LOC103910801, arl13b, arl11, csf2rb, arl13a
+Topic #4:
+cdkn2c, LOC103910627, LOC101886850, LOC103910640, LOC100002706, LOC103910976, LOC103909128, LOC100331208, LOC101883031, LOC100150296
+Topic #5:
+LOC100150296, LOC101883031, gfral, fbxl18, LOC100331208, LOC101886945, inafm2, incenp, LOC101886947, cdkal1
+Topic #6:
+LOC103911353, LOC101886682, LOC101884884, hmcn1, cldnk, LOC103911069, fbxo42, clasrp, LOC101884991, LOC101884648
+Topic #7:
+LOC101885701, LOC103911402, cldn20, LOC101887155, LOC100334843, LOC101884581, isl1l, clmp, fsbp, gls2b
+Perplexity: 8637
+
+7	8637.253999683111
+Fitting 8 topics...
+=================================================================
+Average fit time: 358
+Accuracy: -25924272 (+/- 3038301)
+
+Topic #1:
+LOC101883031, LOC103910799, ass1, LOC103910640, LOC103911953, LOC100536316, cdkn2c, man2c1, LOC103909128, cenpf
+Topic #2:
+insig2, fbxl18, LOC101886947, LOC103910976, cdkal1, LOC100002706, gfral, LOC101883031, LOC100150296, LOC100331208
+Topic #3:
+clic2, c7a, LOC101884963, LOC101886316, lrrc20, cldn11a, actl6a, cks2, clasp2, cldn19
+Topic #4:
+arl13a, LOC103910801, esr2a, LOC103909994, LOC103910664, clu, bcl6b, LOC103911280, LOC103910719, LOC103910802
+Topic #5:
+LOC101886682, cyb561d1, cldn10l2, ccbl2, cldn5a, inpp5b, LOC564842, edn3b, hmbsb, gnao1a
+Topic #6:
+LOC796357, ccng1, LOC103910731, cyth1a, azin1b, ckma, dnajc10, ftr29, dnajb12a, LOC103909454
+Topic #7:
+cks2, bai3, maea, LOC100331568, fbxo42, LOC103909880, kcnv2a, irs2a, cdhr1a, lim2.3
+Topic #8:
+LOC103911692, LOC103910799, glud1a, LOC103911623, clcn6, LOC101884648, LOC795662, LOC101886035, arl13a, csf2rb
+Perplexity: 8665
+
+8	8665.752092823279
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TIME STEP: 10
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 10...
+Binarizing data with cutoff 0.0
+Performing feature selection with variance threshold
+Removing features that are the same in at least 0.01 samples
+Data size: (4280, 17177)
+Number of topics	Perplexity
+Fitting 2 topics...
+=================================================================
+Average fit time: 271
+Accuracy: -30040241 (+/- 1585332)
+
+Topic #1:
+gpr64, LOC558761, LOC103911669, chrnb1, LOC571743, LOC798124, agrp2, LOC558202, chn2, gpr78
+Topic #2:
+capn3a, LOC101886726, eif1ad, capn3b, capn2l, chrm2a, capzb, LOC101884204, gprc6a, LOC100536840
+Perplexity: 8603
+
+2	8603.421002392484
+Fitting 3 topics...
+=================================================================
+Average fit time: 317
+Accuracy: -30070239 (+/- 1583894)
+
+Topic #1:
+LOC101884204, LOC101887151, eif1ad, crot, capn2l, LOC101885921, gprc6a, LOC100536840, LOC100330171, crb3b
+Topic #2:
+LOC103911067, LOC103911669, agrp2, LOC558202, gpr64, chrnb1, LOC558761, chn2, LOC798124, gpr78
+Topic #3:
+emc9, fam160b1, LOC572412, LOC556451, btg2, chrnb1, fam160a1, LOC101883695, LOC101883666, agmo
+Perplexity: 8546
+
+3	8546.718501581481
+Fitting 4 topics...
+=================================================================
+Average fit time: 350
+Accuracy: -30108158 (+/- 1575705)
+
+Topic #1:
+LOC100002472, LOC101885844, gprc6a, LOC100536840, LOC101885917, cul2, LOC103910962, crb3b, LOC100330171, LOC101885921
+Topic #2:
+LOC103910433, LOC101885838, LOC103911681, grsf1, LOC101884204, atxn2, btg2, LOC103909968, LOC100536840, LOC100333021
+Topic #3:
+LOC103911669, LOC558202, dynlrb1, gpr64, LOC103911067, chrnb1, LOC558761, chn2, LOC798124, gpr78
+Topic #4:
+LOC101883361, capn5a, capn3a, capn2l, epha5, LOC103909241, capn3b, LOC101886248, glt1d1, LOC100537690
+Perplexity: 8464
+
+4	8464.336534328679
+Fitting 5 topics...
+=================================================================
+Average fit time: 429
+Accuracy: -30153285 (+/- 1575042)
+
+Topic #1:
+LOC100536840, LOC100002472, LOC101885844, gprc6a, LOC101885917, LOC101885921, crb3b, LOC103910962, cul2, LOC100330171
+Topic #2:
+LOC100536840, LOC103908952, grsf1, LOC100333021, LOC103911681, LOC101885838, LOC103911485, btg2, LOC101883695, fam160a1
+Topic #3:
+chn2, dync2li1, dyrk1ab, LOC569982, dyrk2, LOC101885844, LOC558761, dynlrb1, gpr78, LOC798124
+Topic #4:
+LOC101885723, LOC103909309, LOC101885721, LOC103911023, LOC103909235, capn3a, capn3b, glt1d1, LOC101886248, LOC100537690
+Topic #5:
+LOC103910970, LOC101885723, LOC101883724, chn2, LOC101885830, LOC557984, ehhadh, LOC558023, LOC558126, chrnb1
+Perplexity: 8430
+
+5	8430.652841715728
+Fitting 6 topics...
+=================================================================
+Average fit time: 297
+Accuracy: -30192855 (+/- 1567773)
+
+Topic #1:
+LOC100333021, LOC103910223, gprc6a, LOC103909462, LOC101886323, fmnl3, LOC101885838, LOC103909968, LOC103911681, etnppl
+Topic #2:
+dscama, LOC103909181, LOC101884042, LOC101886726, LOC100332902, LOC103910932, LOC103911669, fam160a1, b3galt4, LOC100536840
+Topic #3:
+LOC103910206, LOC103911532, hnrnpa1a, LOC798124, ctsla, LOC103908925, elac2, LOC103910671, camk2n1b, chn2
+Topic #4:
+LOC101885844, gb:co360592, LOC101884444, LOC558198, btg1, LOC103911166, LOC558761, dynlrb1, gpr78, LOC798124
+Topic #5:
+LOC100536840, LOC101885844, LOC100002472, LOC101885917, gprc6a, crb3b, LOC101885921, LOC103910962, LOC100330171, cul2
+Topic #6:
+hnrnpa1a, agrp2, capn5a, capn2l, LOC103911669, LOC103909241, epha5, LOC101886248, glt1d1, LOC100537690
+Perplexity: 8427
+
+6	8427.69353977409
+Fitting 7 topics...
+=================================================================
+Average fit time: 278
+Accuracy: -30231654 (+/- 1576165)
+
+Topic #1:
+LOC100004768, hax1, dyrk1ab, acyp1, LOC101882425, LOC103910143, LOC799227, ddx3b, cep135, ada
+Topic #2:
+gpr64, LOC571743, LOC100333269, LOC103909241, LOC101886248, capn5a, agrp2, epha5, glt1d1, LOC100537690
+Topic #3:
+LOC101885844, LOC100536840, crb3b, LOC103910962, LOC100002472, LOC101885917, gprc6a, LOC101885921, cul2, LOC100330171
+Topic #4:
+gsx2, LOC103911020, LOC101885142, capn3b, LOC793251, capn3a, LOC101883361, LOC101886248, capn2l, LOC103909512
+Topic #5:
+LOC558083, LOC101883697, LOC798124, chn2, LOC557984, LOC558761, gpr78, LOC558023, LOC558126, chrnb1
+Topic #6:
+LOC103910223, fam160b1, etnppl, LOC101885838, LOC103909128, LOC103911681, LOC103908952, LOC101883695, LOC103911485, fam160a1
+Topic #7:
+LOC101885947, cdhr1a, flj13639, LOC103909474, LOC101884407, LOC103911663, esm1, LOC103911586, abhd12, LOC101885860
+Perplexity: 8429
+
+7	8429.19647499712
+Fitting 8 topics...
+=================================================================
+Average fit time: 254
+Accuracy: -30276949 (+/- 1573897)
+
+Topic #1:
+LOC103909128, fam160b1, btg2, etnppl, LOC101885838, LOC103908952, LOC101883695, LOC103911485, LOC103911681, fam160a1
+Topic #2:
+LOC101885844, LOC100002472, LOC100536840, LOC103910962, gprc6a, crb3b, LOC101885917, LOC101885921, cul2, LOC100330171
+Topic #3:
+cdhr1a, esm1, abhd12, blm, LOC101885860, LOC101884665, LOC101884407, LOC103911663, LOC103911586, flj13639
+Topic #4:
+flii, LOC101885844, immp2l, gpr78, hnrnpa1a, LOC101884444, LOC103911067, chn2, LOC558761, LOC798124
+Topic #5:
+irf2bpl, capn2l, LOC100333269, LOC103911023, capn5a, capn3b, epha5, LOC101886248, glt1d1, LOC100537690
+Topic #6:
+LOC103911552, dynll1, LOC103911586, dyrk2, abhd12, LOC798124, dynlrb1, LOC103908926, LOC100149240, flj13639
+Topic #7:
+cd164l2, eif3d, dram2b, cd151l, eif3ea, LOC103911018, cd180, LOC101884404, casp3a, aak1a
+Topic #8:
+LOC100332902, atp1a2a, chn2, bloc1s2, LOC558126, LOC558023, gpr78, LOC557984, LOC558083, avd
+Perplexity: 8452
+
+8	8452.315052663096
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TIME STEP: 14
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 14...
+Binarizing data with cutoff 0.0
+Performing feature selection with variance threshold
+Removing features that are the same in at least 0.01 samples
+Data size: (4001, 17744)
+Number of topics	Perplexity
+Fitting 2 topics...
+=================================================================
+Average fit time: 176
+Accuracy: -27934354 (+/- 1523371)
+
+Topic #1:
+LOC101884182, fam161b, LOC101886388, LOC799656, clmp, irak1bp1, LOC103911183, LOC564610, cln3, bmpr2b
+Topic #2:
+glra4a, ankrd34bb, itga6b, arid5a, iapp, LOC100537209, LOC101886136, LOC103909701, hoxd11a, LOC103912008
+Perplexity: 9199
+
+2	9199.341197468928
+Fitting 3 topics...
+=================================================================
+Average fit time: 189
+Accuracy: -27965611 (+/- 1522141)
+
+Topic #1:
+LOC103911324, LOC103910991, l2hgdh, LOC101884467, LOC101884827, cdk5r1a, cdkn1ca, cdk5, LOC100537209, hoxd11a
+Topic #2:
+LOC103910074, bmpr2b, LOC103911183, cat, LOC101884182, irak1bp1, LOC566119, clmp, LOC798495, apoa2
+Topic #3:
+LOC103908894, arid5a, LOC103912006, fhod3a, LOC101886669, LOC103912008, LOC101886386, LOC796843, LOC101886136, LOC103909701
+Perplexity: 9097
+
+3	9097.570141151768
+Fitting 4 topics...
+=================================================================
+Average fit time: 207
+Accuracy: -28007784 (+/- 1519655)
+
+Topic #1:
+clmp, LOC566119, LOC101884182, cat, irak1bp1, LOC798495, apoa2, cel.1, hoxc13a, cox7a1
+Topic #2:
+LOC103911183, LOC101884296, LOC103909026, LOC100330380, LOC101884299, LOC101882183, LOC101884467, LOC100537209, bckdk, hoxd11a
+Topic #3:
+kynu, cdkn1ca, LOC101887071, l2hgdh, cdk5, fbxo8, LOC103911324, cdk5r1a, hdhd3, LOC100538037
+Topic #4:
+LOC101886669, LOC103912006, LOC103912035, fhod3a, LOC101886386, arid5a, LOC796843, LOC103912008, LOC101886136, LOC103909701
+Perplexity: 8999
+
+4	8999.580758505137
+Fitting 5 topics...
+=================================================================
+Average fit time: 227
+Accuracy: -28048038 (+/- 1523457)
+
+Topic #1:
+LOC101886669, LOC103909856, LOC103912006, fhod3a, LOC796843, LOC101886386, arid5a, LOC103912008, LOC101886136, LOC103909701
+Topic #2:
+cat, LOC798495, LOC566119, LOC103911367, bscl2l, apoa2, cel.1, adamts5, hoxc13a, cox7a1
+Topic #3:
+LOC101884467, LOC103910074, cln3, LOC103909026, LOC569672, bmpr2b, dia1b, hoxd11a, LOC100537209, LOC100330380
+Topic #4:
+cdk5r1b, cdkn1ca, cdk5, LOC103911631, fbxo8, dhrs9, kynu, LOC103911324, hdhd3, LOC100538037
+Topic #5:
+LOC101886388, l2hgdh, adcy1a, cdk5r1a, LOC103909479, LOC103909547, LOC101883946, LOC103909617, LOC103910371, enpp5
+Perplexity: 8976
+
+5	8976.117880603664
+Fitting 6 topics...
+=================================================================
+Average fit time: 233
+Accuracy: -28090502 (+/- 1517315)
+
+Topic #1:
+LOC798495, cat, LOC564660, ewsr1a, bscl2l, apoa2, adamts5, cel.1, cox7a1, hoxc13a
+Topic #2:
+LOC103911324, LOC100334077, LOC101886581, barhl2, LOC101882334, cdipt, LOC103910521, gpr37l1a, LOC100538037, hdhd3
+Topic #3:
+cul3b, bmpr2b, LOC569672, LOC564610, ace, LOC101886019, adcy1a, LOC103909026, clmp, LOC103909547
+Topic #4:
+bmpr2b, LOC103911183, grid2, irak1bp1, cdk4, LOC103911631, cdk5, adamts5, LOC100538037, kynu
+Topic #5:
+lipea, LOC796843, arfip2b, LOC101886669, ankrd34bb, LOC103910264, arid5a, LOC101883836, clica, LOC103912035
+Topic #6:
+hoxd11a, cdkn2aip, LOC100537450, LOC100537209, iapp, LOC103909856, LOC101886653, LOC101886136, LOC103909701, LOC103912008
+Perplexity: 8985
+
+6	8985.314628095675
+Fitting 7 topics...
+=================================================================
+Average fit time: 242
+Accuracy: -28095524 (+/- 1531701)
+
+Topic #1:
+LOC103911324, lamtor2, LOC103909479, LOC101886388, cdk5r1a, fam184b, l2hgdh, arih1, LOC101884467, LOC100537209
+Topic #2:
+LOC101886238, gpr78, LOC103910265, LOC100537209, LOC101882183, dia1b, LOC101884296, bckdk, hoxd11a, LOC100330380
+Topic #3:
+clint1a, LOC103911572, gpr75, ak2, grk1a, LOC101886155, fgfr1b, atp1a2a, LOC103910292, git1
+Topic #4:
+LOC101883849, LOC797378, LOC100001832, LOC100007503, efnb1, LOC101883079, LOC103911622, LOC103908672, LOC100535657, LOC103908738
+Topic #5:
+adcy1a, LOC103911324, LOC564610, LOC101883517, cdk5r1a, cdk5r1b, fbxo8, kynu, hdhd3, LOC100538037
+Topic #6:
+irak1bp1, LOC101884182, LOC101885038, LOC564610, clmp, LOC566119, cel.1, apoa2, hoxc13a, cox7a1
+Topic #7:
+LOC101886669, clica, fhod3a, LOC101886386, arid5a, LOC796843, LOC103912035, LOC101886136, LOC103912008, LOC103909701
+Perplexity: 8967
+
+7	8967.752055750494
+Fitting 8 topics...
+=================================================================
+Average fit time: 233
+Accuracy: -28159473 (+/- 1531773)
+
+Topic #1:
+LOC101884789, LOC103910396, LOC103909701, cdh15, LOC101886653, LOC103911115, dync2h1, LOC101886657, LOC103909846, dync1i1
+Topic #2:
+LOC103908801, LOC101884707, LOC103909547, cln3, LOC101884274, adcy1a, cdk5, LOC566119, LOC103910074, LOC103911183
+Topic #3:
+cdk5r1b, cdipt, LOC103911411, LOC103911324, cdk5, LOC101886581, kynu, fbxo8, LOC100538037, hdhd3
+Topic #4:
+LOC103912035, fhod3a, LOC101886669, LOC103912006, LOC796843, LOC101886386, arid5a, LOC101886136, LOC103912008, LOC103909701
+Topic #5:
+cul3b, bmpr2b, LOC101884019, adamts5, enpp5, hoxc13a, apoa2, evplb, cel.1, cox7a1
+Topic #6:
+LOC101884827, LOC101884467, LOC103910265, LOC101884296, cyth3, LOC101886238, LOC100537209, hoxd11a, dia1b, LOC100330380
+Topic #7:
+fam184b, gabra5, LOC101887086, LOC103909036, arih1, l2hgdh, cish, cisd2, fndc7rs1, LOC101884851
+Topic #8:
+exo5, LOC100537209, LOC101885407, LOC103909162, ccar1, LOC101885801, hoxd11a, LOC103909467, evi5a, frmd6
+Perplexity: 8975
+
+8	8975.768028229248
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TIME STEP: 18
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 18...
+Binarizing data with cutoff 0.0
+Performing feature selection with variance threshold
+Removing features that are the same in at least 0.01 samples
+Data size: (6962, 25660)
+Number of topics	Perplexity
+Fitting 2 topics...
+=================================================================
+Average fit time: 310
+Accuracy: -62513188 (+/- 32680847)
+
+Topic #1:
+cdc25d, chico, si:dkey-70p6.1, mboat1, pigg, LOC569048, LOC103909651, psen1, nrxn3a, LOC101885383
+Topic #2:
+chchd7, filip1b, cdc23, efcc1, neurod1, mir338-1, eif4a2, si:dkey-12e7.4, hes2.2, chchd2
+Perplexity: 10134
+
+2	10134.92401495355
+Fitting 3 topics...
+=================================================================
+Average fit time: 334
+Accuracy: -62378320 (+/- 32300453)
+
+Topic #1:
+hoxc10a, si:ch211-269c21.2, LOC101886683, LOC103910278, si:ch211-222k6.3, itgb1bp1, LOC101885383, LOC103909874, LOC100329813, dctn5
+Topic #2:
+neurod1, sftpbb, cdc23, filip1b, si:dkey-12e7.4, LOC103910175, chchd2, mir338-1, eif4a2, hes2.2
+Topic #3:
+si:dkey-9i23.6, cdc25d, mau2, cdc25b, LOC103909651, LOC563328, mboat1, nrxn3a, pigg, LOC103911942
+Perplexity: 9975
+
+3	9975.373693792888
+Fitting 4 topics...
+=================================================================
+Average fit time: 382
+Accuracy: -62248650 (+/- 31938466)
+
+Topic #1:
+nrxn3a, gnptg, si:dkey-9l20.3, psen1, LOC103909651, rnf220a, psd3l, fbxw7, LOC101885383, dctn5
+Topic #2:
+or111-6, LOC553446, adipor2, qki2, cldnh, rgs17, si:ch211-139n6.3, crp6, si:dkey-9i23.6, LOC101886102
+Topic #3:
+efemp1, sfrp5, efcc1, kctd12.2, LOC103911768, chchd1, efemp2a, mrps15, si:ch211-218o21.4, gc
+Topic #4:
+bscl2, cldnb, gdf10b, prrt1, fxyd6, gb:bc152504, clec19a, LOC799067, LOC103911178, clec16a
+Perplexity: 9808
+
+4	9808.633836533767
+Fitting 5 topics...
+=================================================================
+Average fit time: 427
+Accuracy: -62521687 (+/- 32496654)
+
+Topic #1:
+ankrd40, nrxn3a, si:ch211-155d24.7, LOC101882409, si:dkey-92i15.4, LOC100535505, LOC101886683, LOC101885346, itgb1bp1, LOC101885383
+Topic #2:
+rtcb, efcc1, LOC103908970, chchd3, ppp3cb, efemp2a, si:ch211-218g4.2, sfrp1b, sfrp5, gc
+Topic #3:
+LOC559196, hoxc10a, ddx3, mir29b-2, LOC103911759, LOC100329813, LOC103909874, LOC103911940, anapc4, dctn5
+Topic #4:
+mir338-1, lman2, chchd1, eif4a2, dclre1c, LOC103910853, LOC103910175, ptk7a, hes2.2, mcm3ap
+Topic #5:
+gb:bc152504, gb:bc139872, asb18, LOC103911318, LOC103911178, kcnk2, rnasekb, LOC799067, clec16a, prrt1
+Perplexity: 9734
+
+5	9734.445776378592
+Fitting 6 topics...
+=================================================================
+Average fit time: 464
+Accuracy: -62397340 (+/- 31975628)
+
+Topic #1:
+LOC103908787, mecr, cplx2l, sfrp1b, sfrp5, LOC100534785, LOC799182, akap12a, LOC103911845, fgf6a
+Topic #2:
+si:ch211-218l14.9, rtcb, nrxn3a, LOC103911942, chchd2, LOC103911703, kirrelb, mmp17a, chchd3, efcc1
+Topic #3:
+fxyd6, nt5c2l1, gb:bc152504, si:ch211-199m3.1, LOC799067, prrt1, cldnb, clec19a, LOC103911178, clec16a
+Topic #4:
+si:ch211-51g4.5, cnnm4, or111-6, rgs17, loxl3b, cldnh, si:dkey-9i23.6, si:ch211-139n6.3, crp6, LOC101886102
+Topic #5:
+si:ch211-269c21.2, dctn3, mir29b-2, hoxc10a, LOC103911940, LOC103909874, LOC100329813, LOC103911759, anapc4, dctn5
+Topic #6:
+LOC103911625, acvr2aa, eps8, ppp4r4, si:ch211-218o21.4, lman2, mrps15, mcm3, cygb2, mcm3ap
+Perplexity: 9620
+
+6	9620.394961620581
+Fitting 7 topics...
+=================================================================
+Average fit time: 478
+Accuracy: -62418244 (+/- 31931099)
+
+Topic #1:
+neurod1, chico, glyr1, efcc1, rtcb, si:ch211-218l14.9, LOC103911942, kirrelb, gc, chchd3
+Topic #2:
+cldnh, rgs17, LOC553446, LOC101882811, irx2a, si:dkey-9i23.6, rdh8a, qki2, si:ch211-139n6.3, LOC101886102
+Topic #3:
+hbl4, fxyd6, hes2.2, gb:bc139872, gdf10b, gb:bc152504, LOC799067, LOC103911318, ptk7a, asb18
+Topic #4:
+LOC100535505, LOC101886683, chst2a, ch25h, LOC103909652, chrnd, LOC101885383, LOC561346, itgb1bp1, LOC101885346
+Topic #5:
+polr2m, si:ch211-218o21.4, LOC100001832, mcm3, il13ra1, ppp4cb, mcm3ap, LOC103911625, angptl5, samd5
+Topic #6:
+LOC103909564, si:ch211-269c21.2, LOC559196, mir29b-2, hoxc10a, LOC103911759, anapc4, LOC103909874, LOC100329813, dctn5
+Topic #7:
+gdf10b, clec19a, gb:bc152504, clec16a, cldnb, itgb1bp1, fxyd6, LOC101885383, atpif1a, LOC103911178
+Perplexity: 9588
+
+7	9588.79191667147
+Fitting 8 topics...
+=================================================================
+Average fit time: 439
+Accuracy: -62580995 (+/- 32393001)
+
+Topic #1:
+si:dkey-88n24.8, pigg, mmp17a, si:dkey-9i23.6, kirrelb, LOC103911942, LOC103909651, gnptg, bmp5, si:dkey-9l20.3
+Topic #2:
+gdf10b, gb:bc139872, fxyd6, asb18, clec16a, LOC799067, LOC571565, clec19a, prrt1, LOC103911178
+Topic #3:
+si:ch211-199m3.1, nt5c2l1, gdf10b, clec19a, asb18, LOC799067, prrt1, kcnk2, gb:bc152504, clec16a
+Topic #4:
+LOC793043, hoxc10a, dctn3, fbxo8, LOC556422, dctn5, apnl, LOC103911940, LOC103911759, anapc4
+Topic #5:
+si:dkey-12e7.4, efcc1, gc, chchd2, chchd10, eif4a2, fn1a, cdc23, kcnf1b, hes2.2
+Topic #6:
+ppp6r2, LOC103910061, samd5, ppp4r4, csgalnact2, ensaa, gc, mrps15, si:ch211-218o21.4, LOC556323
+Topic #7:
+npr3, LOC561346, LOC101885346, chtopa, chrnb2b, chrna3, etv4, chst2a, LOC103911831, chrnd
+Topic #8:
+LOC561873, sbf2, LOC103909874, odam, loxl3b, myhz2, LOC799204, or118-2, sh2b2, ildr2
+Perplexity: 9645
+
+8	9645.263009612663
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+TIME STEP: 24
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Loading file for time 24...
+Binarizing data with cutoff 0.0
+Performing feature selection with variance threshold
+Removing features that are the same in at least 0.01 samples
+Data size: (7969, 17324)
+Number of topics	Perplexity
+Fitting 2 topics...
+=================================================================
+Average fit time: 337
+Accuracy: -48779413 (+/- 1554859)
+
+Topic #1:
+LOC797430, chmp1b, jmy, LOC103909174, LOC103909228, csf1a, foxd5, LOC103910654, LOC103909708, LOC101883034
+Topic #2:
+cel.1, LOC103910857, LOC558353, gdf11, ephb6, LOC103910856, LOC101884507, ccdc102a, LOC101883648, aim1a
+Perplexity: 8720
+
+2	8720.772100440707
+Fitting 3 topics...
+=================================================================
+Average fit time: 357
+Accuracy: -48719317 (+/- 1546963)
+
+Topic #1:
+LOC103910857, LOC101884507, LOC556480, LOC558353, ccdc101, LOC103911043, LOC101883648, ccdc102a, aim1a, ephb6
+Topic #2:
+irs4a, LOC100536618, LOC100536293, gnpnat1, LOC101886465, LOC101886468, LOC101885443, LOC101883697, idh3g, LOC103910718
+Topic #3:
+LOC103909708, foxd5, abcd1, LOC562362, LOC556532, LOC556480, LOC103909240, LOC556551, gtf2f2b, LOC103910858
+Perplexity: 8380
+
+3	8380.651152619168
+Fitting 4 topics...
+=================================================================
+Average fit time: 400
+Accuracy: -48714644 (+/- 1545268)
+
+Topic #1:
+LOC103909227, LOC103910311, gnpnat1, LOC101886476, LOC103909116, LOC793521, atg13, LOC100537731, LOC103911710, LOC101884906
+Topic #2:
+foxd5, csf1a, LOC103909174, LOC103909708, LOC103910654, LOC101883034, LOC101884313, acad9, jmy, LOC103911662
+Topic #3:
+cited2, coro6, LOC103910858, LOC101884846, LOC103910855, LOC556480, LOC103911958, gcsha, gda, LOC798522
+Topic #4:
+LOC558083, LOC798149, LOC558300, LOC558353, LOC558126, LOC793018, aim1a, ephb6, LOC799067, LOC103909709
+Perplexity: 8256
+
+4	8256.260795213579
+Fitting 5 topics...
+=================================================================
+Average fit time: 430
+Accuracy: -48719021 (+/- 1527688)
+
+Topic #1:
+LOC103909187, LOC103911188, LOC101884281, LOC101884282, LOC793521, LOC101886476, LOC100007788, atg13, LOC101884285, LOC101884906
+Topic #2:
+anapc1, ftr29, LOC101883320, LOC570454, LOC101886199, idh3g, he2, LOC100006662, LOC103911658, LOC103911662
+Topic #3:
+LOC103910652, LOC100149482, LOC103910856, gda, LOC103911043, LOC103911958, LOC798522, gtf2h4, efna3b, efhc2
+Topic #4:
+fgf10a, LOC103910059, acad9, LOC798522, gcsha, LOC100329252, gtf2f2b, LOC103909240, LOC571338, ccdc155
+Topic #5:
+abcd1, LOC798168, LOC558816, LOC101885047, LOC556480, LOC793018, ephb6, LOC103909709, LOC799067, LOC798149
+Perplexity: 8205
+
+5	8205.11693674303
+Fitting 6 topics...
+=================================================================
+Average fit time: 431
+Accuracy: -48748585 (+/- 1544130)
+
+Topic #1:
+ecrg4b, LOC100148888, LOC103911710, LOC103911188, fgfr1op, LOC103910845, LOC101884348, atg13, dhrs3b, LOC101884906
+Topic #2:
+LOC556532, LOC103909708, gcsha, LOC101885823, LOC101882067, gtf2h1, LOC103910858, LOC101884846, LOC798522, LOC103911958
+Topic #3:
+LOC103908967, camk1db, LOC101884314, LOC103910372, LOC571338, LOC101885231, ephx1, LOC101885706, LOC100329252, ccdc155
+Topic #4:
+arpc4l, LOC570454, ftr29, cyb561a3a, LOC103910718, idh3g, LOC103911658, he2, LOC100006662, LOC103911662
+Topic #5:
+LOC558353, dhrs13b, LOC103909038, ephb6, ccdc101, ccdc102a, bub1ba, LOC572443, aim1a, LOC103911521
+Topic #6:
+LOC103911644, gigfy2, cpa4, LOC101885430, aqp11, LOC103911540, f9a, ablim1a, LOC101884135, LOC103909365
+Perplexity: 8163
+
+6	8163.558387225757
+Fitting 7 topics...
+=================================================================
+Average fit time: 469
+Accuracy: -48796510 (+/- 1520900)
+
+Topic #1:
+dhrs3b, LOC103910683, gatad2b, ecrg4b, LOC103910685, LOC101886521, gnrhr4, cox7a2a, fgfr1op, LOC103910845
+Topic #2:
+cyp2p9, LOC103908795, LOC798522, LOC101885665, LOC101885664, LOC103908796, exoc3l2b, LOC103909240, LOC101882662, LOC103910105
+Topic #3:
+bub1ba, LOC572443, LOC558353, LOC103909038, aim1a, dhrs13b, ccdc101, ccdc102a, LOC562049, LOC103911521
+Topic #4:
+LOC101884906, csnk1e, LOC798149, LOC103911005, LOC103908794, LOC796291, LOC799067, LOC103911004, LOC798168, LOC103909709
+Topic #5:
+LOC103910858, LOC103910855, LOC556532, cel.1, efna3b, gtf2h4, LOC103911043, LOC103910760, LOC103910761, LOC100149482
+Topic #6:
+LOC103910718, LOC101883320, LOC570454, ftr29, idh3g, he2, LOC101886199, LOC100006662, LOC103911658, LOC103911662
+Topic #7:
+gda, LOC103908967, camk1db, LOC101885706, LOC103910372, gpn3, LOC103910353, ephx1, LOC101884314, ccdc155
+Perplexity: 8138
+
+7	8138.0840368891995
+Fitting 8 topics...
+=================================================================
+Average fit time: 437
+Accuracy: -48831708 (+/- 1546739)
+
+Topic #1:
+LOC101885512, best1, c5, LOC100006662, ftr30, cdk5r2b, LOC103909977, arfgap1, LOC103911662, cyb561a3a
+Topic #2:
+LOC798522, foxd5, LOC101885823, LOC101883034, LOC556551, cyp2p9, LOC556480, LOC101884846, LOC103910858, LOC556532
+Topic #3:
+gtf2h4, efhc2, LOC101883648, fryl, efna3b, LOC101885428, LOC103911521, ccdc101, gde1, ccdc102a
+Topic #4:
+fbxo42, LOC103911575, LOC103912035, LOC101885619, adgrv1, hint2, LOC570163, LOC100150882, guk1a, LOC103909365
+Topic #5:
+LOC798522, LOC103910059, fgf10a, gcsha, gdf5, LOC571338, gtf2f2b, LOC103909240, LOC100329252, ccdc155
+Topic #6:
+cox7a2a, fgfr1op, LOC103908831, LOC101883787, LOC101883677, cyb561d1, dhrs3b, LOC103910845, LOC103911845, ecrg4b
+Topic #7:
+LOC101884023, LOC101885821, LOC101885590, he2, LOC100534771, LOC101882925, LOC101883661, anapc1, LOC103909353, LOC103911662
+Topic #8:
+LOC572443, LOC101885047, LOC799067, LOC103909771, LOC103909709, LOC558126, LOC558281, LOC558202, LOC558300, LOC558083
+Perplexity: 8043
+
+8	8043.762595091935
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
